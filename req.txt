@@ -1,0 +1,14 @@
+<<<<<<< Updated upstream
+{
+    "JavaScript Error Handling": [
+        {"type": "keyword", "value": "throw"}
+    ],
+=======
+
+>>>>>>> Stashed changes
+    "JavaScript DOM Manipulation": [
+        {"type": "js_event", "value": "change"},
+    ]
+
+}
+

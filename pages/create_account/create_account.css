@@ -1,0 +1,161 @@
+/* Forms */
+input,
+textarea,
+select {
+  background-color: transparent;
+  color: #f8f9fa;
+  border: 1px solid #555;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  text-shadow: 0px 0px 0px pink;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #0dcaf0;
+}
+
+/* Validation styling */
+input:invalid {
+  border-color: red;
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.8);
+}
+
+input:valid {
+  border-color: green;
+  box-shadow: 0 0 5px rgba(0, 255, 0, 0.8);
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+th,
+td {
+  padding: 0.75rem;
+  text-align: left;
+  border: 1px solid #444;
+}
+
+th {
+  background-color: #343a40;
+  color: #f8f9fa;
+}
+
+td {
+  background-color: #222;
+  color: #dcdcdc;
+}
+
+/* Utility Classes */
+.text-light {
+  color: #f8f9fa !important;
+}
+
+.bg-dark {
+  background-color: #121212 !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+/* Create Account */
+.Create_Account {
+  margin: auto;
+  position: relative;
+  width: 35%;
+  height: 575px;
+  align-items: center;
+  padding-top: 50px;
+  box-shadow: #C4C3D0;
+  border: 5px double;
+  border-radius: 5px;
+  border-color: white;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.enter_box {
+  height: 40px;
+  display: flex;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 30px;
+  align-items: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  transition: 0.25s;
+}
+
+#sign_in_button {
+  border-radius: 30px;
+  width: 90px;
+  transition: 0.1s;
+}
+
+.enter_box:hover {
+  height: 45px;
+  border-radius: 35px;
+}
+
+#PrivacyP_H{
+  text-decoration: none;
+  color:white;
+}
+
+#PrivacyP_H:hover{
+  color: lightblue;
+  transition: 0.25s;
+}
+
+#body_style{
+    background-image: url(Interstellat_background_image1.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+#Privacy_Policy_description{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+#CA_header{
+    color: white;
+    font-style:italic;
+}
+
+.radio-option {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bio_input{
+  align-items: center;
+}
+.bio_input > textarea{
+  margin-left: 50px;
+  align-self: center !important;
+  width:80%;
+  -webkit-overflow-scrolling: none;
+  resize: none;
+}

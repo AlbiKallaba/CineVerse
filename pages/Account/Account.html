@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link rel="stylesheet" href="Account.css">
+</head>
+<body>
+
+    <div class="main_div">
+        <div id="Profil_information">
+            <div id="Profi_avatar">
+            
+                <img src="https://i.pinimg.com/736x/29/f7/0c/29f70cc424cd61d1b52f52fa96e6a4c4.jpg" alt="">
+                
+            </div>
+
+            <!-- =============== Profil ================ -->
+
+            <div class="Profil_username_information">
+
+              <div class="profile-info">
+                <h2 id="username">USER NAME</h2>
+                <p id="bio">bio</p>
+              </div>
+
+              <button class="edit-button-1" id="edit-profile">EDIT PROFILE</button>
+
+            </div>
+
+            <!-- edit profile  -->
+
+          <div class="modal-1" id="edit-modal">
+
+            <div class="modal-content-1">
+
+              <h3 style="color: white;">Edit Profile</h3>
+
+            <form id="edit-form">
+              <input type="text" id="new-username" placeholder="Enter new username" required >
+              <input type="text" id="new-bio" placeholder="Enter new bio" > <br> <br>
+              <button type="submit">Save</button>
+              <p id="error-message" style="color: red;"></p>
+            </form>
+
+            </div>
+
+          </div>
+
+          <!-- ================-->
+      
+            <table  id="conection_information" style="border-collapse: collapse; width: 45%;">
+
+              <tr>
+                  <td style="color: rgb(255, 255, 255); outline: 1px solid rgb(0, 234, 255);">15</td>
+                  <td style="color: rgb(255, 255, 255); outline: 1px solid  rgb(0, 234, 255);">2</td>
+                  <td style="color:  rgb(255, 255, 255); outline: 1px solid  rgb(0, 234, 255);">3</td>
+                  <td style="color:  rgb(255, 255, 255); outline: 1px solid  rgb(0, 234, 255);">4</td>
+              </tr>
+              <tr>
+                  <td class="td_data_1" style="outline: 1px solid rgb(0, 234, 255);">FILMS</td>
+                  <td class="td_data_1" style="outline: 1px  solid rgb(0, 234, 255);">THIS YEAR</td>
+                  <td class="td_data_1" style="outline: 1px  solid rgb(0, 234, 255);">FOLLOWING</td>
+                  <td class="td_data_1" style="outline: 1px  solid rgb(0, 234, 255);">FOLLOWER</td>
+              </tr>
+          
+          </table>
+        </div>
+    
+
+        <div id="Activity_bar">
+
+            <table id="table_Activity">
+                <tr>
+                    <td> <button class="button"  onclick="showContent('Favorite_films_TVshows')" > Profile </button> </td>
+                    <td> <button class="button"  onclick="showContent('films')"> Films </button> </td>
+                    <td> <button class="button"  onclick="showContent('tvshows')"> TV-shows </button> </td>
+                    <td> <button class="button"  onclick="showContent('watchlist')"> Watchlist</button> </td>
+                </tr>
+            </table>
+
+        </div>
+        <br>
+
+        <div id="Favorite_films_TVshows" class="content active">
+
+            <div class="div_12345"><h5>Favorite Films</h5></div>
+           
+            <div id="Fav-films">
+
+                <div class="Fav-films_div"><img src="https://m.media-amazon.com/images/M/MV5BMTQ5NjQ0NDI3NF5BMl5BanBnXkFtZTcwNDI0MjEzMw@@._V1_FMjpg_UX1000_.jpg"            alt="" class="film-thumbnail"  data-id="1"></div>
+                <div class="Fav-films_div"><img src="https://m.media-amazon.com/images/I/81qpOTJsYYL._AC_UF1000,1000_QL80_.jpg"                                             alt=""class="film-thumbnail"  data-id="2"></div>
+                <div class="Fav-films_div"><img src="https://www.tallengestore.com/cdn/shop/products/LalaLand1_7c6e80fe-6c97-4dba-9e51-e342b8b70d44.jpg?v=1568977047"       alt="" class="film-thumbnail"  data-id="3"></div>
+                <div class="Fav-films_div"><img src="https://m.media-amazon.com/images/I/71ZQkWATduL._AC_UF1000,1000_QL80_.jpg"                                             alt="" class="film-thumbnail"  data-id="4"></div>
+
+            </div>
+
+            <br>
+
+            <div id="Favorite_TVshows" >
+
+                <div class="div_12345" ><h5>Favorite TV-shows</h5></div>
+               
+                <div id="Fav-TV-shows">
+    
+                    <div class="Fav_TVshows_div"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwqUBuhaqRrW4QQZk6xt-KHA4ahmQTmLG4pg&s"                                                                                alt="" class="film-thumbnail"  data-id="5"></div>
+                    <div class="Fav_TVshows_div"><img src="https://m.media-amazon.com/images/M/MV5BZjQwYzBlYzUtZjhhOS00ZDQ0LWE0NzAtYTk4MjgzZTNkZWEzXkEyXkFqcGc@._V1_.jpg"                                                               alt="" class="film-thumbnail"  data-id="6"></div>
+                    <div class="Fav_TVshows_div"><img src="https://m.media-amazon.com/images/M/MV5BNjY4MDQxZTItM2JjMi00NjM5LTk0MWYtOTBlNTY2YjBiNmFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"                                                  alt="" class="film-thumbnail"  data-id="7"></div>
+                    <div class="Fav_TVshows_div"><img src="https://resizing.flixster.com/ASMCrXlrAJnQ9hdvt05e_kh_NNo=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p185554_b_v8_bk.jpg"     alt="" class="film-thumbnail"  data-id="8"></div>
+    
+                </div>
+    
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div id="films" class="content">
+
+            <div class="div_12345" ><h5>Whached films</h5></div>
+
+            <div id="films_cards_div">
+                
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BYTViYTE3ZGQtNDBlMC00ZTAyLTkyODMtZGRiZDg0MjA2YThkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"        alt="" class="film-thumbnail"  data-id="9"></div>
+                <div class="film_card"><img src="https://a.ltrbxd.com/resized/sm/upload/58/tf/z6/gw/qKQIjErYaN149hZRP5Vgf8RoC7S-0-2000-0-3000-crop.jpg?v=72ee5db942"                alt="" class="film-thumbnail"  data-id="10"></div>
+                <div class="film_card"><img src="https://a.ltrbxd.com/resized/sm/upload/3u/dy/qd/qd/4Iu5f2nv7huqvuYkmZvSPOtbFjs-0-2000-0-3000-crop.jpg?v=0fc28fdf2c"                alt="" class="film-thumbnail"  data-id="11"></div>
+                <div class="film_card"><img src="https://a.ltrbxd.com/resized/film-poster/1/1/7/6/2/1/117621-interstellar-0-2000-0-3000-crop.jpg?v=7ad89e6666"                      alt="" class="film-thumbnail"  data-id="12"></div>
+                <div class="film_card"><img src="https://a.ltrbxd.com/resized/sm/upload/64/k8/zx/sf/attack-on-titan-final-chapters-special-1-0-2000-0-3000-crop.jpg?v=821e9c41ba"   alt="" class="film-thumbnail"  data-id="13"></div>
+                <div class="film_card"><img src="https://a.ltrbxd.com/resized/film-poster/3/9/3/5/0/39350--500-days-of-summer-0-2000-0-3000-crop.jpg?v=05995ae0b3"                  alt="" class="film-thumbnail"  data-id="14"></div> 
+            </div>
+
+            <div id="films_cards_div">
+            
+                <div class="film_card"><img src="https://a.ltrbxd.com/resized/film-poster/5/1/6/4/8/51648-a-beautiful-mind-0-2000-0-3000-crop.jpg?v=790ccfb890"                 alt=""  class="film-thumbnail"  data-id="15"></div>
+                <div class="film_card"><img src="https://a.ltrbxd.com/resized/sm/upload/xx/io/jp/45/the-truman-show-0-2000-0-3000-crop.jpg?v=704ba393f7"                        alt=""  class="film-thumbnail"  data-id="16"></div>
+                <div class="film_card"><img src="https://a.ltrbxd.com/resized/film-poster/5/1/3/4/5/51345-se7en-0-2000-0-3000-crop.jpg?v=76a14ef6b4"                            alt=""  class="film-thumbnail"  data-id="17"></div>
+                <div class="film_card"><img src="https://a.ltrbxd.com/resized/film-poster/5/1/8/4/6/51846-dead-poets-society-0-2000-0-3000-crop.jpg?v=9273e8acf7"               alt="" class="film-thumbnail"  data-id="18"></div>
+                <div class="film_card"><img src="https://a.ltrbxd.com/resized/film-poster/5/0/5/1/8/50518-the-breakfast-club-0-2000-0-3000-crop.jpg?v=cce37bedf1"               alt="" class="film-thumbnail"  data-id="19"></div>
+                <div class="film_card"><img src="https://a.ltrbxd.com/resized/film-poster/5/1/7/0/0/51700-12-angry-men-0-2000-0-3000-crop.jpg?v=b8aaf291a9"                     alt="" class="film-thumbnail"  data-id="20"></div>
+
+            </div>
+            
+
+            <div id="films_cards_div">
+
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BMTkxNGFlNDktZmJkNC00MDdhLTg0MTEtZjZiYWI3MGE5NWIwXkEyXkFqcGc@._V1_.jpg"                 alt=""  class="film-thumbnail"  data-id="21"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BMjEwNmEwYjgtNTk3ZC00NjljLTg5ZDctZTY3ZGQwZjRkZmQxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"    alt=""  class="film-thumbnail"  data-id="22"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BNTY5MmE2OGMtN2IxNC00MDY4LTkwMGEtZDUzOTYyNWE0ZTNjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"    alt="" class="film-thumbnail"  data-id="23"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BNThiZjA3MjItZGY5Ni00ZmJhLWEwN2EtOTBlYTA4Y2E0M2ZmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"    alt="" class="film-thumbnail"  data-id="24"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BNDdjZGQ5YzEtNTc2My00Mjc0LWFlMTctYzkwMzZlNzdiZWYzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"    alt="" class="film-thumbnail"  data-id="25"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BNmEyZjI0M2MtNGFkOC00YTRlLWI0MGQtYTgyODY2MGRhMjc4XkEyXkFqcGc@._V1_QL75_UX154_.jpg"      alt="" class="film-thumbnail"  data-id="26"></div>
+
+            </div>  
+            
+            <div id="films_cards_div">
+
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BYzkxZjg2NDQtMGVjMy00NWZkLTk0ZDEtZWE3NDYwYjAyMTg1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"    alt="" class="film-thumbnail"  data-id="27"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BN2FjNWExYzEtY2YzOC00YjNlLTllMTQtNmIwM2Q1YzBhOWM1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"    alt="" class="film-thumbnail"  data-id="28"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BZmMyYzJlZmYtY2I3NC00NjAyLTkyZWItZjdjZDI1YTYyYTEwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"    alt="" class="film-thumbnail"  data-id="29"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BOTA1Mzc2N2ItZWRiNS00MjQzLTlmZDQtMjU0NmY1YWRkMGQ4XkEyXkFqcGc@._V1_.jpg"                 alt="" class="film-thumbnail"  data-id="30"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BZDZhZmI1ZTUtYWI3NC00NTMwLTk3NWMtNDc0OGNjM2I0ZjlmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"    alt="" class="film-thumbnail"  data-id="31"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BNDlkZmVkZDAtZGFmMS00OWIzLWJkY2YtNWE5NjNhNjhiZGE3XkEyXkFqcGc@._V1_.jpg"                 alt="" class="film-thumbnail"  data-id="32"></div>
+            
+            </div>
+                            
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div id="tvshows" class="content">
+
+            <div class="div_12345" ><h5>Whached films</h5></div>
+
+            <div id="films_cards_div">
+
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BNjY4MDQxZTItM2JjMi00NjM5LTk0MWYtOTBlNTY2YjBiNmFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"    alt="" class="film-thumbnail"  data-id="33"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BOTVkYzBlNjMtNmMyMi00ZDM3LWFlMDctZmMxOWU5NWM2MmRhXkEyXkFqcGc@._V1_.jpg"                 alt="" class="film-thumbnail"  data-id="34"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BOTU2YmM5ZjctOGVlMC00YTczLTljM2MtYjhlNGI5YWMyZjFkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"    alt="" class="film-thumbnail"  data-id="35"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BNDA3MGNmZTEtMzFiMy00ZmViLThhNmQtMjQ4ZDc5MDEyN2U1XkEyXkFqcGc@._V1_.jpg"                 alt="" class="film-thumbnail"  data-id="36"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BMzNiODA5NjYtYWExZS00OTc4LTg3N2ItYWYwYTUyYmM5MWViXkEyXkFqcGc@._V1_.jpg"                 alt="" class="film-thumbnail"  data-id="37"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BZGQyZjk2MzMtMTcyNC00NGU3LTlmNjItNDExMWM4ZDFhYmQ2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"    alt="" class="film-thumbnail"  data-id="38"></div>
+            
+            </div>
+
+            <div id="films_cards_div">
+
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BOWJhYjdjNWEtMWFmNC00ZjNkLThlZGEtN2NkM2U3NTVmMjZkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"    alt="" class="film-thumbnail"  data-id="39"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BYjgwYzA1NWMtNDYyZi00ZGQyLWI5NTktMDYwZjE2OTIwZWEwXkEyXkFqcGc@._V1_.jpg"                 alt="" class="film-thumbnail"  data-id="40"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BY2JiNjU3NWYtMTRlYS00NzY3LWE2NDQtZGFkNWE2MDU4OTExXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"    alt="" class="film-thumbnail"  data-id="41"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BZmE1YTFlZWMtYzRkYi00MWU0LWIwODctZmYzMDExZGRkM2NmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"    alt="" class="film-thumbnail"  data-id="42"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BNjgxZGM0OWUtZGY1MS00MWRmLTk2N2ItYjQyZTI1OThlZDliXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"    alt="" class="film-thumbnail"  data-id="43"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BYzYxOTlkYzctNGY2MC00MjNjLWIxOWMtY2QwYjcxZWIwMmEwXkEyXkFqcGc@._V1_.jpg"                 alt="" class="film-thumbnail"  data-id="44"></div>
+            
+            </div>
+            
+
+            <div id="films_cards_div">
+
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BMDMwMThjYWYtY2Q2OS00OGM2LTlkODQtNDJlZTZmMjAyYmFhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"                alt="" class="film-thumbnail"  data-id="45"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BMTNhMDJmNmYtNDQ5OS00ODdlLWE0ZDAtZTgyYTIwNDY3OTU3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"                alt="" class="film-thumbnail"  data-id="5"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BM2RhZGVlZGItMGZiMy00YjdjLWIwMGUtMWYxOGIwNjA0MjNmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"                alt="" class="film-thumbnail"  data-id="46"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BODcwOTg2MDE3NF5BMl5BanBnXkFtZTgwNTUyNTY1NjM@._V1_.jpg"                                             alt="" class="film-thumbnail"  data-id="47"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BM2QzMGVkNjUtN2Y4Yi00ODMwLTg3YzktYzUxYjJlNjFjNDY1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"                alt="" class="film-thumbnail"  data-id="48"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BMmRlNjQxNWQtMjk1OS00N2QxLTk0YWQtMzRhYjY5YTFhNjMxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"     alt="" class="film-thumbnail"  data-id="49"></div>
+            
+            </div>
+
+            <div id="films_cards_div"> 
+
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BM2FiMjQ0ZjAtYzc1OC00NzgzLWIyNmQtYmIwYjdhZWM5MmRiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"    alt="" class="film-thumbnail"  data-id="50"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BOTA2MTdhZmItODM3NS00ZmFlLWE4YWYtOWYxODBmNGU5YjRjXkEyXkFqcGc@._V1_.jpg"                 alt="" class="film-thumbnail"  data-id="51"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BNDJlMGI1MDYtZDM0MS00NDYzLWIyMmUtZTY5MjY3MzJiN2QwXkEyXkFqcGc@._V1_.jpg"                 alt="" class="film-thumbnail"  data-id="52"></div>
+            
+            </div>
+        
+        </div>
+
+
+
+
+
+
+
+        <div id="watchlist" class="content">
+
+            <div class="div_12345" ><h5>Watchlist</h5></div>
+
+            <div id="films_cards_div">
+
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BNjU0NDFkMTQtZWY5OS00MmZhLTg3Y2QtZmJhMzMzMWYyYjc2XkEyXkFqcGc@._V1_.jpg"                 alt="" class="film-thumbnail"  data-id="53"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BZmM3ZjE0NzctNjBiOC00MDZmLTgzMTUtNGVlOWFlOTNiZDJiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"    alt="" class="film-thumbnail"  data-id="54"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BYmFmNmUyMjYtZTFjNS00OWQyLThhZmMtMGZkYTQ3YjY0ZDQ1XkEyXkFqcGc@._V1_.jpg"                 alt="" class="film-thumbnail"  data-id="55"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"    alt="" class="film-thumbnail"  data-id="56"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BOTNmYzY0MWQtZGZmNy00Y2Y4LWFmMDQtMTZjYTdiYzEwZGQ2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"    alt="" class="film-thumbnail"  data-id="57"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BMjA2NjU5MTg5OF5BMl5BanBnXkFtZTgwOTkyMzQxMDE@._V1_FMjpg_UX1000_.jpg"                    alt="" class="film-thumbnail"  data-id="58"></div>
+            
+            </div>
+
+            <div id="films_cards_div">
+
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BMjEwNDI4NTE5M15BMl5BanBnXkFtZTcwOTY4ODE3OQ@@._V1_.jpg"                                 alt="" class="film-thumbnail"  data-id="59"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BOWNmMzAzZmQtNDQ1NC00Nzk5LTkyMmUtNGI2N2NkOWM4MzEyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"    alt="" class="film-thumbnail"  data-id="60"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BNGE0YTVjNzUtNzJjOS00NGNlLTgxMzctZTY4YTE1Y2Y1ZTU4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"    alt="" class="film-thumbnail"  data-id="61"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BMjlkNTE5ZTUtNGEwNy00MGVhLThmZjMtZjU1NDE5Zjk1NDZkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"    alt="" class="film-thumbnail"  data-id="62"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BYmRjOWE5NmMtYTdkYS00ODFlLWJiMTMtYzE2NDZlZjlkZDQ0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"    alt="" class="film-thumbnail"  data-id="63"></div>
+                <div class="film_card"><img src="https://www.austinfilm.org/wp-content/uploads/2018/03/The_Seventh_seal_1_Poster-677x1024.jpg"                                  alt="" class="film-thumbnail"  data-id="64"></div>
+            
+            </div>
+            
+
+            <div id="films_cards_div">
+
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg"                    alt="" class="film-thumbnail"  data-id="65"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BMWE3NTYzZmEtM2U5MS00MDZhLTk2ZTQtZTgzNjg0ZGQ5ZjM0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"    alt="" class="film-thumbnail"  data-id="66"></div>
+                <div class="film_card"><img src="https://m.media-amazon.com/images/M/MV5BNTA5ZWMwNmYtNWI1ZS00NDRlLTkxNzktMzdhZDU2ZDhjNDJmXkEyXkFqcGc@._V1_.jpg"                 alt=""class="film-thumbnail"  data-id="67"></div>
+            
+            </div>
+
+
+        
+        </div>
+
+
+        <div id="modal" class="modal">
+
+            <div class="modal-content">
+              <span id="close-button" class="close-button">&times;</span>
+
+              <div id="movie_rating_releaseDate_div"> 
+
+                <img id="modal-image" class="modal-image" src="" alt="Movie Poster">
+                <h3 id="modal-rating" style="margin: 5px 0; font-family: Georgia, 'Times New Roman', Times, serif; color: rgb(169, 159, 204);"></h3>
+                <p style="margin: 5px 0; font-family: Georgia, 'Times New Roman', Times, serif; color: rgb(169, 159, 204);"><strong>Release Date:</strong> <span id="modal-release"></span></p>
+                <p id="actors_p" style="margin: 5px 0; font-family: Georgia, 'Times New Roman', Times, serif; color: rgb(169, 159, 204);"><strong>Actors:</strong> <span id="modal-actors"></span></p>
+
+              </div>
+              
+              <div class="modal-details" >
+
+                <h2 id="modal-title" style="font-family: Georgia, 'Times New Roman', Times, serif; color: rgb(169, 159, 204);"></h2>
+                <p id="modal-description" style="font-family: Georgia, 'Times New Roman', Times, serif; color: rgb(169, 159, 204);"></p>
+                
+              </div>
+
+            </div>
+          </div>
+
+        
+
+    <script>
+        function showContent(contentId) {
+            // Hide all content sections
+            const contents = document.querySelectorAll('.content');
+            contents.forEach((content) => {content.classList.remove('active');});
+    
+            // Show the selected content section
+            const selectedContent = document.getElementById(contentId);
+            if (selectedContent) {
+                selectedContent.classList.add('active');
+            }
+        }
+    </script>
+
+<script>
+    // JavaScript
+    document.addEventListener('DOMContentLoaded', () => {
+      const movies = {
+        
+  1: {
+    title: "The Pursuit of Happyness",
+    rating: "8.0/10",
+    description: "The Pursuit of Happyness is a 2006 American biographical drama film directed by Gabriele Muccino, starring Will Smith as Chris Gardner, a struggling salesman who becomes homeless with his young son, portrayed by Smith's real-life son, Jaden Smith. The film chronicles Gardner's nearly one-year struggle with homelessness and his determination to create a better life for his son. The title's unconventional spelling reflects a mural Gardner sees on the wall outside the daycare facility his son attended.",
+    releaseDate: "2006-12-15",
+    actors: "Will Smith, Jaden Smith, Thandiwe Newton, Brian Howe",
+    image: "https://m.media-amazon.com/images/M/MV5BMTQ5NjQ0NDI3NF5BMl5BanBnXkFtZTcwNDI0MjEzMw@@._V1_FMjpg_UX1000_.jpg",
+  },
+
+  2: {
+    title: "Fantastic Mr. Fox",
+    rating: "7.9/10",
+    description: "Mr. Fox, a former chicken thief turned newspaper columnist, returns to his old ways, leading his family and community into a battle against three mean farmers.",
+    releaseDate: "2009-11-13",
+    actors: "George Clooney, Meryl Streep, Jason Schwartzman, Bill Murray",
+    image: "https://m.media-amazon.com/images/I/81qpOTJsYYL._AC_UF1000,1000_QL80_.jpg",
+  },
+        
+  3: {
+    title: "La La Land",
+    rating: "8.0/10",
+    description: "La La Land is a 2016 American musical romantic comedy-drama film written and directed by Damien Chazelle. It stars Ryan Gosling and Emma Stone as a jazz pianist and an aspiring actress who meet and fall in love while pursuing their dreams in Los Angeles. The film received widespread critical acclaim, particularly for its direction, performances, and musical numbers.",
+    releaseDate: "2016-12-09",
+    actors: "Ryan Gosling, Emma Stone, John Legend, Rosemarie DeWitt",
+    image: "https://www.tallengestore.com/cdn/shop/products/LalaLand1_7c6e80fe-6c97-4dba-9e51-e342b8b70d44.jpg?v=1568977047",
+  },
+
+  4: {
+    title: "The Perks of Being a Wallflower",
+    rating: "8.0/10",
+    description: "The Perks of Being a Wallflower is a 2012 American coming-of-age drama film written and directed by Stephen Chbosky, based on his 1999 novel of the same name. The film stars Logan Lerman as Charlie, a socially awkward high school freshman who is introduced to a group of seniors, played by Emma Watson and Ezra Miller, who help him navigate the challenges of adolescence. The story explores themes of friendship, love, and personal growth.",
+    releaseDate: "2012-09-21",
+    actors: "Logan Lerman, Emma Watson, Ezra Miller, Paul Rudd",
+    image: "https://m.media-amazon.com/images/I/71ZQkWATduL._AC_UF1000,1000_QL80_.jpg",
+  },
+
+  5: {
+    title: "Game of Thrones",
+    rating: "9.3/10",
+    description: "Game of Thrones is a fantasy drama television series based on the 'A Song of Ice and Fire' novels by George R.R. Martin. Set in the fictional continents of Westeros and Essos, the show chronicles the power struggles between noble families vying for control of the Iron Throne, while supernatural forces threaten the realm. The series is known for its complex characters, intricate political plots, and epic battles.",
+    releaseDate: "2011-04-17",
+    actors: "Emilia Clarke, Kit Harington, Peter Dinklage, Lena Headey",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwqUBuhaqRrW4QQZk6xt-KHA4ahmQTmLG4pg&s",
+  },
+
+  6: {
+    title: "The Office",
+    rating: "8.8/10",
+    description: "The Office is an American mockumentary-style sitcom that chronicles the everyday lives of the employees at Dunder Mifflin, a paper supply company. The show focuses on the quirky personalities of the staff and their relationships, particularly with their well-meaning but often inappropriate boss, Michael Scott. Known for its dry humor and relatable portrayal of office life, the series became a cultural phenomenon.",
+    releaseDate: "2005-03-24",
+    actors: "Steve Carell, Rainn Wilson, John Krasinski, Jenna Fischer",
+    image: "https://m.media-amazon.com/images/M/MV5BZjQwYzBlYzUtZjhhOS00ZDQ0LWE0NzAtYTk4MjgzZTNkZWEzXkEyXkFqcGc@._V1_.jpg",
+  },
+  7: {
+    title: "Attack on Titan",
+    rating: "8.8/10",
+    description: "Attack on Titan is a Japanese anime series set in a world where humanity resides within enormous walled cities to protect themselves from giant humanoid creatures known as Titans. The story follows Eren Yeager and his friends as they join the military to fight the Titans after their town is destroyed. The show is known for its intense action, complex characters, and exploration of themes like freedom and survival.",
+    releaseDate: "2013-04-07",
+    actors: "Yuki Kaji, Marina Inoue, Hiroshi Kamiya, Kazuya Nakai",
+    image: "https://m.media-amazon.com/images/M/MV5BNjY4MDQxZTItM2JjMi00NjM5LTk0MWYtOTBlNTY2YjBiNmFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+  8: {
+    title: "The Big Bang Theory",
+    rating: "8.1/10",
+    description: "The Big Bang Theory is an American sitcom that centers around a group of socially awkward scientists and their interactions with each other and the people around them. The show focuses on the dynamics between physicists Leonard and Sheldon, along with their friends Raj, Howard, and their neighbor Penny. The series is known for its nerdy humor, lovable characters, and the exploration of relationships.",
+    releaseDate: "2007-09-24",
+    actors: "Johnny Galecki, Jim Parsons, Kaley Cuoco, Simon Helberg",
+    image: "https://resizing.flixster.com/ASMCrXlrAJnQ9hdvt05e_kh_NNo=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p185554_b_v8_bk.jpg",
+  },
+
+  9: {
+    title: "Pulp Fiction",
+    rating: "8.9/10",
+    description: "Pulp Fiction is a 1994 American crime film written and directed by Quentin Tarantino. The film is renowned for its non-linear narrative, intertwining multiple stories of crime and redemption in Los Angeles. It features an ensemble cast including John Travolta, Samuel L. Jackson, Uma Thurman, Bruce Willis, and Ving Rhames.",
+    releaseDate: "1994-10-14",
+    actors: "John Travolta, Uma Thurman, Samuel L. Jackson, Bruce Willis, Ving Rhames",
+    image: "https://m.media-amazon.com/images/M/MV5BYTViYTE3ZGQtNDBlMC00ZTAyLTkyODMtZGRiZDg0MjA2YThkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+
+  10: {
+    title: "Zodiac",
+    rating: "7.7/10",
+    description: "Zodiac is a 2007 American mystery thriller directed by David Fincher, based on the nonfiction books by Robert Graysmith. The film stars Jake Gyllenhaal, Mark Ruffalo, and Robert Downey Jr., and delves into the investigation of the Zodiac Killer, a serial killer who terrorized the San Francisco Bay Area during the late 1960s and early 1970s.",
+    releaseDate: "2007-03-02",
+    actors: "Jake Gyllenhaal, Mark Ruffalo, Robert Downey Jr., Anthony Edwards",
+    image: "https://a.ltrbxd.com/resized/sm/upload/58/tf/z6/gw/qKQIjErYaN149hZRP5Vgf8RoC7S-0-2000-0-3000-crop.jpg?v=72ee5db942",
+  },
+
+  11: {
+    title: "Arrival",
+    rating: "7.9/10",
+    description: "Arrival is a 2016 American science fiction film directed by Denis Villeneuve, based on Ted Chiang's short story 'Story of Your Life.' The film stars Amy Adams as a linguist who is enlisted to communicate with extraterrestrial beings after twelve mysterious spacecraft land on Earth. As she unravels their language, she begins to experience time in a non-linear way, leading to profound revelations about humanity and her own life.",
+    releaseDate: "2016-11-11",
+    actors: "Amy Adams, Jeremy Renner, Forest Whitaker, Michael Stuhlbarg",
+    image: "https://a.ltrbxd.com/resized/sm/upload/3u/dy/qd/qd/4Iu5f2nv7huqvuYkmZvSPOtbFjs-0-2000-0-3000-crop.jpg?v=0fc28fdf2c",
+  },
+
+  12: {
+    title: "Interstellar",
+    rating: "8.6/10",
+    description: "Interstellar is a 2014 science fiction film directed by Christopher Nolan. The film stars Matthew McConaughey, Anne Hathaway, Jessica Chastain, and Michael Caine. Set in a dystopian future where Earth is becoming uninhabitable, a team of astronauts embarks on a journey through a wormhole to find a new planet for humanity. The film explores themes of love, time, and the survival of the human race, blending scientific theories with emotional storytelling.",
+    releaseDate: "2014-11-07",
+    actors: "Matthew McConaughey, Anne Hathaway, Jessica Chastain, Michael Caine",
+    image: "https://a.ltrbxd.com/resized/film-poster/1/1/7/6/2/1/117621-interstellar-0-2000-0-3000-crop.jpg?v=7ad89e6666",
+  },
+
+  13: {
+    title: "Attack on Titan: The Final Chapters – Special 1",
+    rating: "8.5/10",
+    description: "Attack on Titan: The Final Chapters – Special 1 is a 2023 Japanese animated television special, serving as the 29th episode of the fourth season of the anime series. Directed by Yuichiro Hayashi, the episode continues the story of Eren Yeager's quest to reshape the world, focusing on the Scout Regiment's efforts to stop the Rumbling and prevent global destruction. The narrative delves into themes of freedom, sacrifice, and the moral complexities of war.",
+    releaseDate: "2023-03-04",
+    actors: "Yuki Kaji, Marina Inoue, Hiroshi Kamiya, Kazuya Nakai",
+    image: "https://a.ltrbxd.com/resized/sm/upload/64/k8/zx/sf/attack-on-titan-final-chapters-special-1-0-2000-0-3000-crop.jpg?v=821e9c41ba",
+  },
+
+  14: {
+    title: "(500) Days of Summer",
+    rating: "7.7/10",
+    description: "(500) Days of Summer is a 2009 American romantic dramedy directed by Marc Webb, starring Joseph Gordon-Levitt and Zooey Deschanel. The film follows Tom Hansen, a greeting card writer, as he reflects on his past relationship with Summer Finn, exploring the highs and lows of love. The non-linear narrative dissects the relationship from various angles, offering a realistic portrayal of romantic expectations versus reality.",
+    releaseDate: "2009-07-17",
+    actors: "Joseph Gordon-Levitt, Zooey Deschanel, Geoffrey Arend, Minka Kelly",
+    image: "https://a.ltrbxd.com/resized/film-poster/3/9/3/5/0/39350--500-days-of-summer-0-2000-0-3000-crop.jpg?v=05995ae0b3",
+  },
+
+  15: {
+    title: "A Beautiful Mind",
+    rating: "8.2/10",
+    description: "A Beautiful Mind is a 2001 American biographical drama directed by Ron Howard, starring Russell Crowe as John Nash, a brilliant but troubled mathematician who struggles with schizophrenia. The film follows Nash's journey through his groundbreaking work in game theory and his battle with mental illness, exploring themes of genius, love, and the power of the human mind.",
+    releaseDate: "2001-12-21",
+    actors: "Russell Crowe, Jennifer Connelly, Ed Harris, Paul Bettany",
+    image: "https://a.ltrbxd.com/resized/film-poster/5/1/6/4/8/51648-a-beautiful-mind-0-2000-0-3000-crop.jpg?v=790ccfb890",
+  },
+
+  16: {
+    title: "The Truman Show",
+    rating: "8.1/10",
+    description: "The Truman Show is a 1998 American satirical science fiction psychological drama directed by Peter Weir, starring Jim Carrey as Truman Burbank, a man who unknowingly lives his entire life inside a massive, all-encompassing reality TV show. As Truman begins to notice strange occurrences and inconsistencies in his world, he starts to seek the truth about his existence. The film explores themes of reality, freedom, and the impact of media on our lives.",
+    releaseDate: "1998-06-05",
+    actors: "Jim Carrey, Laura Linney, Ed Harris, Noah Emmerich",
+    image: "https://a.ltrbxd.com/resized/sm/upload/xx/io/jp/45/the-truman-show-0-2000-0-3000-crop.jpg?v=704ba393f7",
+  },
+
+  17: {
+    title: "Se7en",
+    rating: "8.6/10",
+    description: "Se7en is a 1995 American psychological crime thriller directed by David Fincher, starring Brad Pitt, Morgan Freeman, and Kevin Spacey. The film follows two detectives, Somerset and Mills, as they investigate a series of gruesome murders based on the seven deadly sins. As they unravel the mystery, they are led into a dark and disturbing conclusion that challenges their understanding of justice and morality.",
+    releaseDate: "1995-09-22",
+    actors: "Brad Pitt, Morgan Freeman, Kevin Spacey, Gwyneth Paltrow",
+    image: "https://a.ltrbxd.com/resized/film-poster/5/1/3/4/5/51345-se7en-0-2000-0-3000-crop.jpg?v=76a14ef6b4",
+  },
+
+  18: {
+    title: "Dead Poets Society",
+    rating: "8.1/10",
+    description: "Dead Poets Society is a 1989 American drama directed by Peter Weir, starring Robin Williams as John Keating, an inspiring English teacher at a conservative all-boys preparatory school. Keating encourages his students to embrace poetry, individualism, and critical thinking, challenging the school's rigid traditions. The film explores themes of conformity, freedom of expression, and the power of education.",
+    releaseDate: "1989-06-09",
+    actors: "Robin Williams, Robert Sean Leonard, Ethan Hawke, Josh Charles",
+    image: "https://a.ltrbxd.com/resized/film-poster/5/1/8/4/6/51846-dead-poets-society-0-2000-0-3000-crop.jpg?v=9273e8acf7",
+  },
+
+  19: {
+    title: "The Breakfast Club",
+    rating: "7.8/10",
+    description: "The Breakfast Club is a 1985 American coming-of-age teen drama directed by John Hughes. The film takes place during a Saturday detention at a high school, where five students from different social cliques—each with their own struggles—come together under the supervision of a strict principal. As they interact and open up, they discover they have more in common than they initially thought. The film explores themes of identity, peer pressure, and the complexities of adolescence.",
+    releaseDate: "1985-02-15",
+    actors: "Emilio Estevez, Molly Ringwald, Judd Nelson, Anthony Michael Hall",
+    image: "https://a.ltrbxd.com/resized/film-poster/5/0/5/1/8/50518-the-breakfast-club-0-2000-0-3000-crop.jpg?v=cce37bedf1",
+  },
+
+  20: {
+    title: "12 Angry Men",
+    rating: "8.9/10",
+    description: "12 Angry Men is a 1957 American courtroom drama directed by Sidney Lumet. The film takes place almost entirely in a jury deliberation room, where 12 jurors must decide the fate of a young man accused of murder. As the deliberations unfold, the jurors' biases and prejudices come to light, and one juror's persistence forces others to reconsider the evidence. The film explores themes of justice, moral responsibility, and the complexities of human nature.",
+    releaseDate: "1957-04-10",
+    actors: "Henry Fonda, Lee J. Cobb, Martin Balsam, E.G. Marshall",
+    image: "https://a.ltrbxd.com/resized/film-poster/5/1/7/0/0/51700-12-angry-men-0-2000-0-3000-crop.jpg?v=b8aaf291a9",
+  },
+
+  21: {
+    title: "The Empire Strikes Back",
+    rating: "8.7/10",
+    description: "The Empire Strikes Back is a 1980 American epic space opera directed by Irvin Kershner. It is the second installment in the original Star Wars trilogy and follows the Rebel Alliance as they struggle against the mighty Galactic Empire. After a devastating attack on their base, Luke Skywalker continues his Jedi training while his friends, Han Solo, Princess Leia, and Chewbacca, are pursued by the Empire. The film is renowned for its darker tone and iconic plot twists, including the revelation of Darth Vader's true identity.",
+    releaseDate: "1980-05-21",
+    actors: "Mark Hamill, Harrison Ford, Carrie Fisher, Alec Guinness",
+    image: "https://m.media-amazon.com/images/M/MV5BMTkxNGFlNDktZmJkNC00MDdhLTg0MTEtZjZiYWI3MGE5NWIwXkEyXkFqcGc@._V1_.jpg",
+  },
+
+  22: {
+    title: "The Pianist",
+    rating: "8.5/10",
+    description: "The Pianist is a 2002 biographical war film directed by Roman Polanski, starring Adrien Brody as Władysław Szpilman, a Jewish pianist who survives the Holocaust in Warsaw. Based on Szpilman’s autobiography, the film depicts his struggles to survive the atrocities of World War II while maintaining his love for music. The Pianist explores themes of resilience, survival, and the devastating effects of war.",
+    releaseDate: "2002-12-25",
+    actors: "Adrien Brody, Thomas Kretschmann, Frank Finlay, Emilia Fox",
+    image: "https://m.media-amazon.com/images/M/MV5BMjEwNmEwYjgtNTk3ZC00NjljLTg5ZDctZTY3ZGQwZjRkZmQxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+
+  23: {
+    title: "Grave of the Fireflies",
+    rating: "8.5/10",
+    description: "Grave of the Fireflies is a 1988 Japanese animated war drama directed by Isao Takahata. The film tells the heartbreaking story of two siblings, Seita and Setsuko, who struggle to survive in Japan during the final months of World War II. As they face starvation, illness, and the collapse of their society, the film poignantly explores the effects of war on innocent lives.",
+    releaseDate: "1988-04-16",
+    actors: "Tsutomu Tatsumi, Ayano Shiraishi, Akemi Yamaguchi",
+    image: "https://m.media-amazon.com/images/M/MV5BNTY5MmE2OGMtN2IxNC00MDY4LTkwMGEtZDUzOTYyNWE0ZTNjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+
+  24: {
+    title: "Spider-Man: Across the Spider-Verse",
+    rating: "8.9/10",
+    description: "Spider-Man: Across the Spider-Verse is a 2023 animated superhero film and the sequel to 'Spider-Man: Into the Spider-Verse.' The film follows Miles Morales as he embarks on a new adventure across multiple dimensions, encountering new Spider-People along the way. The visually stunning film explores themes of identity, responsibility, and family.",
+    releaseDate: "2023-06-02",
+    actors: "Shameik Moore, Hailee Steinfeld, Oscar Isaac, Jake Johnson",
+    image: "https://m.media-amazon.com/images/M/MV5BNThiZjA3MjItZGY5Ni00ZmJhLWEwN2EtOTBlYTA4Y2E0M2ZmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+
+  25: {
+    title: "Good Will Hunting",
+    rating: "8.3/10",
+    description: "Good Will Hunting is a 1997 American drama directed by Gus Van Sant, starring Matt Damon, Robin Williams, and Ben Affleck. The film tells the story of Will Hunting, a janitor at the Massachusetts Institute of Technology who is a self-taught math prodigy. After assaulting a police officer, Will is forced to attend therapy, where he begins to confront his troubled past and potential for greatness.",
+    releaseDate: "1997-12-05",
+    actors: "Matt Damon, Robin Williams, Ben Affleck, Minnie Driver",
+    image: "https://m.media-amazon.com/images/M/MV5BNDdjZGQ5YzEtNTc2My00Mjc0LWFlMTctYzkwMzZlNzdiZWYzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+
+  26: {
+    title: "Your Name.",
+    rating: "8.4/10",
+    description: "Your Name. is a 2016 Japanese animated romantic fantasy film directed by Makoto Shinkai. The film follows two teenagers, Taki and Mitsuha, who mysteriously begin swapping bodies across time and space. As they navigate their unusual connection, they must work together to prevent a disaster and uncover the truth behind their connection.",
+    releaseDate: "2016-08-26",
+    actors: "Ryunosuke Kamiki, Mone Kamishiraishi, Masami Nagasawa",
+    image: "https://m.media-amazon.com/images/M/MV5BNmEyZjI0M2MtNGFkOC00YTRlLWI0MGQtYTgyODY2MGRhMjc4XkEyXkFqcGc@._V1_QL75_UX154_.jpg",
+  },
+
+  27: {
+    title: "1917",
+    rating: "8.3/10",
+    description: "1917 is a 2019 British war film directed by Sam Mendes. Set during World War I, the film follows two British soldiers, Blake and Schofield, tasked with delivering a message to stop a battalion from walking into a deadly trap. Shot in a single continuous take, the film highlights the harrowing nature of war and the bravery of ordinary soldiers.",
+    releaseDate: "2019-12-25",
+    actors: "George MacKay, Dean-Charles Chapman, Benedict Cumberbatch, Colin Firth",
+    image: "https://m.media-amazon.com/images/M/MV5BYzkxZjg2NDQtMGVjMy00NWZkLTk0ZDEtZWE3NDYwYjAyMTg1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+
+  28: {
+    title: "Shutter Island",
+    rating: "8.1/10",
+    description: "Shutter Island is a 2010 psychological thriller directed by Martin Scorsese, starring Leonardo DiCaprio. The film follows Teddy Daniels, a U.S. Marshal investigating the disappearance of a patient from a mental institution on a remote island. As he delves deeper into the case, Teddy begins to question his own sanity and the true nature of the island's mysteries.",
+    releaseDate: "2010-02-19",
+    actors: "Leonardo DiCaprio, Mark Ruffalo, Ben Kingsley, Michelle Williams",
+    image: "https://m.media-amazon.com/images/M/MV5BN2FjNWExYzEtY2YzOC00YjNlLTllMTQtNmIwM2Q1YzBhOWM1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+
+  29: {
+    title: "Kill Bill: Vol. 1",
+    rating: "8.1/10",
+    description: "Kill Bill: Vol. 1 is a 2003 action film directed by Quentin Tarantino, starring Uma Thurman. The film follows The Bride, a former assassin seeking revenge on her former colleagues who betrayed her. With intense action scenes and Tarantino's trademark storytelling, the film explores themes of vengeance, betrayal, and redemption.",
+    releaseDate: "2003-10-10",
+    actors: "Uma Thurman, David Carradine, Lucy Liu, Vivica A. Fox",
+    image: "https://m.media-amazon.com/images/M/MV5BZmMyYzJlZmYtY2I3NC00NjAyLTkyZWItZjdjZDI1YTYyYTEwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+
+  30: {
+    title: "Harry Potter and the Deathly Hallows: Part 2",
+    rating: "8.1/10",
+    description: "Harry Potter and the Deathly Hallows: Part 2 is the final film in the Harry Potter series, directed by David Yates. The film follows Harry, Ron, and Hermione as they search for Voldemort's Horcruxes and prepare for the ultimate battle against the Dark Lord. The film culminates in a high-stakes confrontation at Hogwarts, marking the end of an era for the wizarding world.",
+    releaseDate: "2011-07-15",
+    actors: "Daniel Radcliffe, Rupert Grint, Emma Watson, Ralph Fiennes",
+    image: "https://m.media-amazon.com/images/M/MV5BOTA1Mzc2N2ItZWRiNS00MjQzLTlmZDQtMjU0NmY1YWRkMGQ4XkEyXkFqcGc@._V1_.jpg",
+  },
+
+  31: {
+    title: "Before Sunrise",
+    rating: "8.1/10",
+    description: "Before Sunrise is a 1995 romantic drama directed by Richard Linklater, starring Ethan Hawke and Julie Delpy. The film follows Jesse and Celine, two strangers who meet on a train and spend one night walking around Vienna, getting to know each other and discussing life, love, and philosophy. The film explores the fleeting nature of relationships and the beauty of human connection.",
+    releaseDate: "1995-01-27",
+    actors: "Ethan Hawke, Julie Delpy, Andrea Eckert, Herbert Knaup",
+    image: "https://m.media-amazon.com/images/M/MV5BZDZhZmI1ZTUtYWI3NC00NTMwLTk3NWMtNDc0OGNjM2I0ZjlmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+
+  32: {
+    title: "Come and See",
+    rating: "8.3/10",
+    description: "Come and See is a 1985 Soviet war drama directed by Elem Klimov. The film follows a young boy, Florya, who witnesses the horrors of Nazi occupation in Belarus during World War II. The film is known for its intense and harrowing portrayal of the effects of war on a child, capturing the psychological trauma and devastation caused by the conflict.",
+    releaseDate: "1985-09-07",
+    actors: "Aleksei Kravchenko, Olga Mironova, Liubomiras Laucevicius",
+    image: "https://m.media-amazon.com/images/M/MV5BNDlkZmVkZDAtZGFmMS00OWIzLWJkY2YtNWE5NjNhNjhiZGE3XkEyXkFqcGc@._V1_.jpg",
+  },
+
+  33: {
+    title: "Attack on Titan: The Final Season",
+    rating: "9.0/10",
+    description: "Attack on Titan: The Final Season concludes the epic saga of humanity's battle against the Titans, uncovering long-hidden truths about the world and the origins of the Titans. The season delves into political conflicts, moral dilemmas, and the struggle for freedom as Eren Yeager takes a darker path to achieve his goals. With intense action and deep emotional stakes, the final season delivers a powerful conclusion to the acclaimed anime series.",
+    releaseDate: "2020-12-07",
+    actors: "Yuki Kaji, Yui Ishikawa, Marina Inoue, Takehito Koyasu",
+    image: "https://m.media-amazon.com/images/M/MV5BNjY4MDQxZTItM2JjMi00NjM5LTk0MWYtOTBlNTY2YjBiNmFjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+
+  34: {
+    title: "I Am Not Okay with This",
+    rating: "7.5/10",
+    description: "I Am Not Okay with This is a coming-of-age black comedy series that follows Sydney Novak, a teenage girl navigating the complexities of high school, family dynamics, and her emerging sexuality, all while discovering she has mysterious superpowers. Based on Charles Forsman's graphic novel, the show blends adolescent angst with supernatural elements.",
+    releaseDate: "2020-02-26",
+    actors: "Sophia Lillis, Wyatt Oleff, Sofia Bryant, Kathleen Rose Perkins",
+    image: "https://m.media-amazon.com/images/M/MV5BOTVkYzBlNjMtNmMyMi00ZDM3LWFlMDctZmMxOWU5NWM2MmRhXkEyXkFqcGc@._V1_.jpg",
+  },
+
+  35: {
+    title: "Friends",
+    rating: "8.9/10",
+    description: "Friends is a beloved American sitcom that aired from 1994 to 2004, following the lives of six friends—Rachel, Ross, Monica, Chandler, Joey, and Phoebe—as they navigate personal and professional challenges in New York City. The show is celebrated for its humor, memorable characters, and cultural impact.",
+    releaseDate: "1994-09-22",
+    actors: "Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc, Matthew Perry, David Schwimmer",
+    image: "https://m.media-amazon.com/images/M/MV5BOTU2YmM5ZjctOGVlMC00YTczLTljM2MtYjhlNGI5YWMyZjFkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+  36: {
+    title: "Vinland Saga",
+    rating: "8.8/10",
+    description: "Vinland Saga is a Japanese anime series that chronicles the journey of Thorfinn, a young Viking warrior seeking revenge against the mercenary leader who killed his father. Set in medieval Europe, the series blends historical events with intense action and deep character development.",
+    releaseDate: "2019-07-07",
+    actors: "Yûto Uemura, Kenshô Ono, Akio Ôtsuka, Naoya Uchida",
+    image: "https://m.media-amazon.com/images/M/MV5BNDA3MGNmZTEtMzFiMy00ZmViLThhNmQtMjQ4ZDc5MDEyN2U1XkEyXkFqcGc@._V1_.jpg",
+  },
+  37: {
+    title: "Fullmetal Alchemist: Brotherhood",
+    rating: "9.1/10",
+    description: "Fullmetal Alchemist: Brotherhood is a Japanese anime series that follows brothers Edward and Alphonse Elric, who use alchemy in their quest to find the Philosopher's Stone to restore their bodies after a failed alchemical experiment. The series is acclaimed for its intricate plot and philosophical themes.",
+    releaseDate: "2009-04-05",
+    actors: "Romi Park, Rie Kugimiya, Megumi Takamoto, Shin'ichirô Miki",
+    image: "https://m.media-amazon.com/images/M/MV5BMzNiODA5NjYtYWExZS00OTc4LTg3N2ItYWYwYTUyYmM5MWViXkEyXkFqcGc@._V1_.jpg",
+  },
+  38: {
+    title: "Rick and Morty",
+    rating: "9.2/10",
+    description: "Rick and Morty is an animated science fiction sitcom that follows the misadventures of cynical mad scientist Rick Sanchez and his good-hearted but fretful grandson Morty Smith as they navigate complex and dangerous adventures across the multiverse.",
+    releaseDate: "2013-12-02",
+    actors: "Justin Roiland, Chris Parnell, Spencer Grammer, Sarah Chalke",
+    image: "https://m.media-amazon.com/images/M/MV5BZGQyZjk2MzMtMTcyNC00NGU3LTlmNjItNDExMWM4ZDFhYmQ2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+  39: {
+    title: "Arcane",
+    rating: "9.0/10",
+    description: "Arcane is an animated series set in the League of Legends universe, exploring the origin stories of iconic characters from the utopian city of Piltover and the oppressed underground of Zaun. The series is praised for its stunning animation and deep storytelling.",
+    releaseDate: "2021-11-06",
+    actors: "Hailee Steinfeld, Kevin Alejandro, Jason Spisak, Ella Purnell",
+    image: "https://m.media-amazon.com/images/M/MV5BOWJhYjdjNWEtMWFmNC00ZjNkLThlZGEtN2NkM2U3NTVmMjZkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+  40: {
+    title: "True Detective",
+    rating: "9.0/10",
+    description: "True Detective is an anthology crime drama series where each season introduces new narratives and characters, delving into complex investigations and the personal and professional challenges faced by those involved. The series is known for its compelling storytelling and strong performances.",
+    releaseDate: "2014-01-12",
+    actors: "Matthew McConaughey, Woody Harrelson, Michelle Monaghan, Colin Farrell",
+    image: "https://m.media-amazon.com/images/M/MV5BYjgwYzA1NWMtNDYyZi00ZGQyLWI5NTktMDYwZjE2OTIwZWEwXkEyXkFqcGc@._V1_.jpg",
+  },
+  41: {
+    title: "The Last of Us",
+    rating: "9.2/10",
+    description: "The Last of Us is a post-apocalyptic drama series based on the acclaimed video game, following the journey of Joel and Ellie as they navigate a world ravaged by a fungal pandemic. The series explores themes of survival, trust, and the bonds formed in dire circumstances.",
+    releaseDate: "2023-01-15",
+    actors: "Pedro Pascal, Bella Ramsey, Gabriel Luna, Merle Dandridge",
+    image: "https://m.media-amazon.com/images/M/MV5BY2JiNjU3NWYtMTRlYS00NzY3LWE2NDQtZGFkNWE2MDU4OTExXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+  42: {
+    title: "Berserk (1997)",
+    rating: "8.7/10",
+    description: "Berserk is a dark fantasy anime series that follows Guts, a skilled swordsman, as he joins the mercenary group known as the Band of the Hawk, led by the charismatic Griffith. The series delves into themes of ambition, fate, and the human condition.",
+    releaseDate: "1997-10-07",
+    actors: "Nobutoshi Canna, Marc Diraison, Carrie Keranen, Kevin T. Collins",
+    image: "https://m.media-amazon.com/images/M/MV5BZmE1YTFlZWMtYzRkYi00MWU0LWIwODctZmYzMDExZGRkM2NmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+  43: {
+    title: "The Mandalorian",
+    rating: "8.8/10",
+    description: "The Mandalorian is a space Western series set in the Star Wars universe, following the adventures of a lone bounty hunter known as the Mandalorian as he navigates the outer reaches of the galaxy, protecting a mysterious child from various threats.",
+    releaseDate: "2019-11-12",
+    actors: "Pedro Pascal, Gina Carano, Carl Weathers, Giancarlo Esposito",
+    image: "https://m.media-amazon.com/images/M/MV5BNjgxZGM0OWUtZGY1MS00MWRmLTk2N2ItYjQyZTI1OThlZDliXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+  44: {
+    title: "Hunter x Hunter",
+    rating: "9.0/10",
+    description: "Hunter x Hunter is a Japanese anime series that follows Gon Freecss, a young boy who becomes a Hunter to find his absentee father. Along the way, he befriends other aspiring Hunters and faces various challenges in a world filled with adventure and danger.",
+    releaseDate: "2011-10-02",
+    actors: "Megumi Han, Mariya Ise, Keiji Fujiwara, Miyuki Sawashiro",
+    image: "https://m.media-amazon.com/images/M/MV5BYzYxOTlkYzctNGY2MC00MjNjLWIxOWMtY2QwYjcxZWIwMmEwXkEyXkFqcGc@._V1_.jpg",
+  },
+  45: {
+    title: "Avatar: The Last Airbender",
+    rating: "9.3/10",
+    description: "Avatar: The Last Airbender is an animated series set in a world where people can manipulate the elements of water, earth, fire, and air. The story follows Aang, the last Airbender and the Avatar, as he embarks on a quest to bring balance to the world.",
+    releaseDate: "2005-02-21",
+    actors: "Zach Tyler, Mae Whitman, Jack De Sena, Dante Basco",
+    image: "https://m.media-amazon.com/images/M/MV5BMDMwMThjYWYtY2Q2OS00OGM2LTlkODQtNDJlZTZmMjAyYmFhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+
+  46: {
+    title: "Dark",
+    rating: "8.7/10",
+    description: "Dark is a German science fiction thriller series that explores the implications of time travel on human nature. The story follows four interconnected families as they uncover a time travel conspiracy that spans several generations.",
+    releaseDate: "2017-12-01",
+    actors: "Louis Hofmann, Karoline Eichhorn, Lisa Vicari, Maja Schöne",
+    image: "https://m.media-amazon.com/images/M/MV5BM2RhZGVlZGItMGZiMy00YjdjLWIwMGUtMWYxOGIwNjA0MjNmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+  47: {
+    title: "Daredevil",
+    rating: "8.6/10",
+    description: "Daredevil is a Marvel series that follows Matt Murdock, a blind lawyer by day and vigilante by night, as he fights crime in New York City's Hell's Kitchen. The show is known for its gritty portrayal of the superhero genre and complex character development.",
+    releaseDate: "2015-04-10",
+    actors: "Charlie Cox, Deborah Ann Woll, Elden Henson, Vincent D'Onofrio",
+    image: "https://m.media-amazon.com/images/M/MV5BODcwOTg2MDE3NF5BMl5BanBnXkFtZTgwNTUyNTY1NjM@._V1_.jpg",
+  },
+  48: {
+    title: "House of the Dragon",
+    rating: "8.4/10",
+    description: "House of the Dragon is a fantasy drama series that serves as a prequel to 'Game of Thrones.' It chronicles the history of House Targaryen, focusing on the events leading up to and during the Targaryen civil war known as the Dance of the Dragons.",
+    releaseDate: "2022-08-21",
+    actors: "Paddy Considine, Emma D'Arcy, Matt Smith, Olivia Cooke",
+    image: "https://m.media-amazon.com/images/M/MV5BM2QzMGVkNjUtN2Y4Yi00ODMwLTg3YzktYzUxYjJlNjFjNDY1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+  49: {
+    title: "The Queen's Gambit",
+    rating: "8.6/10",
+    description: "The Queen's Gambit is a coming-of-age period drama that follows Beth Harmon, an orphaned chess prodigy, as she rises to prominence in the male-dominated world of competitive chess while struggling with addiction and personal challenges.",
+    releaseDate: "2020-10-23",
+    actors: "Anya Taylor-Joy, Bill Camp, Marielle Heller, Thomas Brodie-Sangster",
+    image: "https://m.media-amazon.com/images/M/MV5BMmRlNjQxNWQtMjk1OS00N2QxLTk0YWQtMzRhYjY5YTFhNjMxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+  50: {
+    title: "Loki",
+    rating: "8.2/10",
+    description: "Loki is a Marvel series that follows the God of Mischief after the events of 'Avengers: Endgame.' The show explores Loki's adventures across different timelines and his involvement with the Time Variance Authority, an organization that monitors the multiverse.",
+    releaseDate: "2021-06-09",
+    actors: "Tom Hiddleston, Owen Wilson, Gugu Mbatha-Raw, Sophia Di Martino",
+    image: "https://m.media-amazon.com/images/M/MV5BM2FiMjQ0ZjAtYzc1OC00NzgzLWIyNmQtYmIwYjdhZWM5MmRiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+  51: {
+    title: "Over the Garden Wall",
+    rating: "8.8/10",
+    description: "Over the Garden Wall is an animated miniseries that follows two half-brothers, Wirt and Greg, as they become lost in a mysterious forest called The Unknown and attempt to find their way home, encountering various strange and whimsical characters along the way.",
+    releaseDate: "2014-11-03",
+    actors: "Elijah Wood, Collin Dean, Melanie Lynskey, Christopher Lloyd",
+    image: "https://m.media-amazon.com/images/M/MV5BOTA2MTdhZmItODM3NS00ZmFlLWE4YWYtOWYxODBmNGU5YjRjXkEyXkFqcGc@._V1_.jpg",
+  },
+  52: {
+    title: "Regular Show",
+    rating: "8.4/10",
+    description: "Regular Show is an animated series that follows the daily lives of two friends, Mordecai, a blue jay, and Rigby, a raccoon, who work as groundskeepers at a park. Their attempts to avoid work and seek out fun lead to surreal and often supernatural adventures.",
+    releaseDate: "2010-09-06",
+    actors: "J.G. Quintel, William Salyers, Sam Marin, Mark Hamill",
+    image: "https://m.media-amazon.com/images/M/MV5BNDJlMGI1MDYtZDM0MS00NDYzLWIyMmUtZTY5MjY3MzJiN2QwXkEyXkFqcGc@._V1_.jpg",
+  },
+
+  53: {
+    title: "2001: A Space Odyssey",
+    rating: "8.3/10",
+    description: "2001: A Space Odyssey is a 1968 science fiction film directed by Stanley Kubrick. The film explores themes of human evolution, artificial intelligence, and extraterrestrial life, following a voyage to Jupiter with the sentient computer HAL-9000. Renowned for its groundbreaking special effects and ambiguous narrative, it is considered one of the greatest films ever made.",
+    releaseDate: "1968-04-03",
+    actors: "Keir Dullea, Gary Lockwood, William Sylvester, Daniel Richter",
+    image: "https://m.media-amazon.com/images/M/MV5BNjU0NDFkMTQtZWY5OS00MmZhLTg3Y2QtZmJhMzMzMWYyYjc2XkEyXkFqcGc@._V1_.jpg",
+  },
+  54: {
+    title: "Back to the Future",
+    rating: "8.5/10",
+    description: "Back to the Future is a 1985 science fiction adventure film directed by Robert Zemeckis. The story follows teenager Marty McFly, who is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his eccentric friend, Dr. Emmett Brown. Marty must ensure his teenage parents unite to save his own existence.",
+    releaseDate: "1985-07-03",
+    actors: "Michael J. Fox, Christopher Lloyd, Lea Thompson, Crispin Glover",
+    image: "https://m.media-amazon.com/images/M/MV5BZmM3ZjE0NzctNjBiOC00MDZmLTgzMTUtNGVlOWFlOTNiZDJiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+  55: {
+    title: "Jojo Rabbit",
+    rating: "7.9/10",
+    description: "Jojo Rabbit is a 2019 satirical black comedy film directed by Taika Waititi. Set during World War II, it follows a young German boy named Jojo whose world is turned upside down when he discovers his mother is hiding a Jewish girl in their attic. Jojo's imaginary friend, a whimsical version of Adolf Hitler, complicates his feelings.",
+    releaseDate: "2019-10-18",
+    actors: "Roman Griffin Davis, Thomasin McKenzie, Scarlett Johansson, Taika Waititi",
+    image: "https://m.media-amazon.com/images/M/MV5BYmFmNmUyMjYtZTFjNS00OWQyLThhZmMtMGZkYTQ3YjY0ZDQ1XkEyXkFqcGc@._V1_.jpg",
+  },
+  56: {
+    title: "The Matrix",
+    rating: "8.7/10",
+    description: "The Matrix is a 1999 science fiction action film written and directed by the Wachowskis. The film depicts a dystopian future where humanity is unknowingly trapped inside a simulated reality called the Matrix, created by intelligent machines. Computer hacker Neo discovers the truth and joins a rebellion to free mankind.",
+    releaseDate: "1999-03-31",
+    actors: "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving",
+    image: "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+  57: {
+    title: "Amélie",
+    rating: "8.3/10",
+    description: "Amélie is a 2001 French romantic comedy film directed by Jean-Pierre Jeunet. The story follows Amélie Poulain, a shy waitress in Paris, who decides to change the lives of those around her for the better while grappling with her own isolation. The film is celebrated for its whimsical visual style and charming narrative.",
+    releaseDate: "2001-04-25",
+    actors: "Audrey Tautou, Mathieu Kassovitz, Rufus, Lorella Cravotta",
+    image: "https://m.media-amazon.com/images/M/MV5BOTNmYzY0MWQtZGZmNy00Y2Y4LWFmMDQtMTZjYTdiYzEwZGQ2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+  58: {
+    title: "Scream",
+    rating: "7.4/10",
+    description: "Scream is a 1996 slasher film directed by Wes Craven. The film follows high school student Sidney Prescott as she becomes the target of a mysterious killer known as Ghostface. Blending horror with self-aware humor, Scream revitalized the horror genre and spawned a successful franchise.",
+    releaseDate: "1996-12-20",
+    actors: "Neve Campbell, Courteney Cox, David Arquette, Skeet Ulrich",
+    image: "https://m.media-amazon.com/images/M/MV5BMjA2NjU5MTg5OF5BMl5BanBnXkFtZTgwOTkyMzQxMDE@._V1_FMjpg_UX1000_.jpg",
+  },
+  59: {
+    title: "Princess Mononoke",
+    rating: "8.4/10",
+    description: "Princess Mononoke is a 1997 Japanese animated epic fantasy film written and directed by Hayao Miyazaki. The story follows Ashitaka, a young prince who becomes involved in a struggle between the gods of a forest and the humans who consume its resources. The film explores themes of environmentalism and the conflict between industry and nature.",
+    releaseDate: "1997-07-12",
+    actors: "Yôji Matsuda, Yuriko Ishida, Yûko Tanaka, Billy Crudup",
+    image: "https://m.media-amazon.com/images/M/MV5BMjEwNDI4NTE5M15BMl5BanBnXkFtZTcwOTY4ODE3OQ@@._V1_.jpg",
+  },
+  60: {
+    title: "Everything Everywhere All at Once",
+    rating: "8.0/10",
+    description: "Everything Everywhere All at Once is a 2022 science fiction black comedy film directed by Daniel Kwan and Daniel Scheinert. The film follows a Chinese-American woman being audited by the IRS who discovers that she must connect with parallel universe versions of herself to prevent a powerful being from destroying the multiverse.",
+    releaseDate: "2022-03-11",
+    actors: "Michelle Yeoh, Stephanie Hsu, Ke Huy Quan, James Hong",
+    image: "https://m.media-amazon.com/images/M/MV5BOWNmMzAzZmQtNDQ1NC00Nzk5LTkyMmUtNGI2N2NkOWM4MzEyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+  61: {
+    title: "The Avengers",
+    rating: "8.0/10",
+    description: "The Avengers is a 2012 superhero film directed by Joss Whedon. It is the sixth film in the Marvel Cinematic Universe, bringing together characters like Iron Man, Captain America, Thor, and the Hulk as they form a team to stop the mischievous Loki and his alien army from enslaving humanity.",
+    releaseDate: "2012-05-04",
+    actors: "Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth",
+    image: "https://m.media-amazon.com/images/M/MV5BNGE0YTVjNzUtNzJjOS00NGNlLTgxMzctZTY4YTE1Y2Y1ZTU4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+  62: {
+    title: "The Social Network",
+    rating: "7.7/10",
+    description: "The Social Network is a 2010 biographical drama film directed by David Fincher. The film chronicles the founding of the social networking website Facebook and the resulting lawsuits. It explores themes of ambition, friendship, and betrayal in the digital age.",
+    releaseDate: "2010-10-01",
+    actors: "Jesse Eisenberg, Andrew Garfield, Justin Timberlake, Armie Hammer",
+    image: "https://m.media-amazon.com/images/M/MV5BMjlkNTE5ZTUtNGEwNy00MGVhLThmZjMtZjU1NDE5Zjk1NDZkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+  63: {
+    title: "Memories of Murder",
+    rating: "8.1/10",
+    description: "Memories of Murder is a 2003 South Korean crime drama film directed by Bong Joon-ho. Based on true events, the film follows two detectives in the 1980s as they attempt to solve the country's first recorded serial murders. The film is acclaimed for its blend of suspense, dark humor, and social commentary.",
+    releaseDate: "2003-05-02",
+    actors: "Song Kang-ho, Kim Sang-kyung, Kim Roi-ha, Song Jae-ho",
+    image: "https://m.media-amazon.com/images/M/MV5BYmRjOWE5NmMtYTdkYS00ODFlLWJiMTMtYzE2NDZlZjlkZDQ0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+
+  64: {
+    title: "The Seventh Seal",
+    rating: "8.2/10",
+    description: "The Seventh Seal is a 1957 Swedish historical fantasy film directed by Ingmar Bergman. Set during the Black Death, it follows a medieval knight who plays a game of chess with Death as he seeks answers about life, death, and the existence of God.",
+    releaseDate: "1957-02-16",
+    actors: "Max von Sydow, Gunnar Björnstrand, Bengt Ekerot, Nils Poppe",
+    image: "https://www.austinfilm.org/wp-content/uploads/2018/03/The_Seventh_seal_1_Poster-677x1024.jpg",
+  },
+  65: {
+    title: "Inception",
+    rating: "8.8/10",
+    description: "Inception is a 2010 science fiction heist thriller directed by Christopher Nolan. The film follows a professional thief who infiltrates the subconscious of his targets to steal information, and is offered a chance to have his criminal history erased as payment for planting an idea into a target's subconscious.",
+    releaseDate: "2010-07-16",
+    actors: "Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Tom Hardy",
+    image: "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg",
+  },
+  66: {
+    title: "Donnie Darko",
+    rating: "8.0/10",
+    description: "Donnie Darko is a 2001 science fiction psychological thriller directed by Richard Kelly. The film follows a troubled teenager who narrowly escapes a bizarre accident and begins to have visions of a man in a rabbit suit who manipulates him to commit a series of crimes.",
+    releaseDate: "2001-10-26",
+    actors: "Jake Gyllenhaal, Jena Malone, Mary McDonnell, Holmes Osborne",
+    image: "https://m.media-amazon.com/images/M/MV5BMWE3NTYzZmEtM2U5MS00MDZhLTk2ZTQtZTgzNjg0ZGQ5ZjM0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+  },
+  67: {
+    title: "Scott Pilgrim vs. the World",
+    rating: "7.5/10",
+    description: "Scott Pilgrim vs. the World is a 2010 action comedy film directed by Edgar Wright. The story centers on Scott Pilgrim, a slacker musician who must battle his new girlfriend's seven evil exes to win her heart.",
+    releaseDate: "2010-08-13",
+    actors: "Michael Cera, Mary Elizabeth Winstead, Kieran Culkin, Chris Evans",
+    image: "https://m.media-amazon.com/images/M/MV5BNTA5ZWMwNmYtNWI1ZS00NDRlLTkxNzktMzdhZDU2ZDhjNDJmXkEyXkFqcGc@._V1_.jpg",
+  },
+
+      };
+      
+
+      const modal = document.getElementById('modal');
+      const modalImage = document.getElementById('modal-image');
+      const modalTitle = document.getElementById('modal-title');
+      const modalRating = document.getElementById('modal-rating');
+      const modalDescription = document.getElementById('modal-description');
+      const modalRelease = document.getElementById('modal-release');
+      const modalActors = document.getElementById('modal-actors');
+      const closeButton = document.getElementById('close-button');
+      const thumbnails = document.querySelectorAll('.film-thumbnail');
+
+      thumbnails.forEach((thumbnail) => {
+        thumbnail.addEventListener('click', () => {
+          const movieId = thumbnail.getAttribute('data-id');
+          const movie = movies[movieId];
+
+          // Update modal content
+          modalImage.src = movie.image;
+          modalTitle.textContent = movie.title;
+          modalRating.textContent = `Rating: ${movie.rating}`;
+          modalDescription.textContent = movie.description;
+          modalRelease.textContent = movie.releaseDate;
+          modalActors.textContent = movie.actors;
+
+          // Show the modal
+          modal.style.display = 'flex';
+        });
+      });
+
+      closeButton.addEventListener('click', () => {
+        modal.style.display = 'none';
+      });
+
+      window.addEventListener('click', (event) => {
+        if (event.target === modal) {
+          modal.style.display = 'none';
+        }
+      });
+    });
+
+    const buttons = document.querySelectorAll('.button');
+    
+    buttons.forEach(button  => {
+      button.addEventListener('click' , () => {
+        buttons.forEach(btn => btn.classList.remove('active'));
+
+        button.classList.add('active');
+      });
+    });
+
+      /* ========== edit profil form =========== */
+
+    const editButton = document.getElementById('edit-profile');
+    const modal = document.getElementById('edit-modal');
+    const form = document.getElementById('edit-form');
+    const usernameField = document.getElementById('username');
+    const bioField = document.getElementById('bio');
+    const ErrorMessage = document.getElementById('error-message');
+
+    // Open modal
+    editButton.addEventListener('click', () => {
+      modal.classList.add('active');
+    });
+
+    // Close modal when clicking outside the modal content
+    window.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.classList.remove('active');
+      }
+    });
+
+    // Save new username and bio
+    form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const newUsername = document.getElementById('new-username').value;
+  const newBio = document.getElementById('new-bio').value;
+
+  ErrorMessage.textContent = ''; // Clear previous errors
+
+  try {
+    // Validate username length (between 4 and 10 characters)
+    if (newUsername.length < 5 || newUsername.length > 10) {
+      throw "Username must be between 5 and 10 characters long.";
+    }
+
+    // Validate username contains at least one number
+    if (!/\d/.test(newUsername)) {
+      throw "Username must contain at least one number.";
+    }
+
+    // Validate bio length (must be shorter than 15 characters if provided)
+    if (newBio.length > 0 && newBio.length >= 15) {
+      throw "Bio must be shorter than 15 characters if provided.";
+    }
+
+    // If all validations pass, update the profile
+    usernameField.textContent = newUsername;
+    bioField.textContent = newBio;
+
+    // Close the modal
+    modal.classList.remove('active');
+  } catch (error) {
+    // Display the error message
+    ErrorMessage.textContent = error;
+  }
+});
+
+  </script>
+    
+        <!-- Footer placeholder -->
+        <div id="footer-placeholder"></div>
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Custom JS -->
+        <script type="module" src="index.js"></script>
+        <script>
+          document.getElementById("username").value = localStorage.setItem("Username")
+          document.getElementById("bio").value = localStorage.setItem("Bio");
+        </script>
+
+        
+        <script>
+          // Get the username from the URL
+          const urlParams = new URLSearchParams(window.location.search);
+          const username = urlParams.get('username');
+      
+          // Load user data from localStorage
+          const userData = JSON.parse(localStorage.getItem('user'));
+          if (userData && userData.username === username) {
+            document.getElementById('user-info').innerHTML = `
+              <p>Username: ${userData.username}</p>
+              <p>Email: ${userData.email}</p>
+              <p>Gender: ${userData.gender}</p>
+            `;
+          } else {
+            document.getElementById('user-info').innerHTML = 'User not found.';
+          }
+        </script>
+</body>
+</html>

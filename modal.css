@@ -1,0 +1,64 @@
+.modal {
+  overflow: hidden;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden; /* Hide initially */
+  transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+}
+
+.modal.show {
+  display: flex;
+  opacity: 1;
+  visibility: visible; /* Make visible when "show" class is added */
+  transition: opacity 0.3s ease, visibility 0s linear 0s;
+}
+
+.modal-card {
+  background-color: var(--background-dark);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  transform: translateY(-30px);
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.modal.show .modal-card {
+  transform: translateY(0);
+  opacity: 1; /* Fade-in effect for the card */
+}
+
+.modal-close {
+  float: right;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.modal img {
+  transform: scale(0.9);
+  max-height: 100vh !important;
+  border-radius: 20px;
+}
+
+.modal .left {
+  border-left: 1px solid var(--primary-color);
+  height: 100vh;
+  color: white !important;
+  padding-left: 1rem;
+}
+
+.modal-video {
+  border: 1.5px solid var(--primary-color);
+  border-radius: 5px;
+}
+.card-title{
+  font-size:  xx-large !important;
+}

@@ -1,0 +1,55 @@
+/* Privacy Policy */
+
+#PP_DIV{
+  width: 70%;
+  background-color: red;
+  height: 100%;
+
+}
+
+/* info */
+
+
+#Div_left{
+  width: 15%;
+  margin-left: 17.5%;
+  margin-right: auto;
+}
+
+#Div_right{
+
+  width: 45%;
+  margin-left: auto;
+  margin-right: 17.5%;
+  align-self: right;
+  font-size: 17px;
+  font-weight: 400;
+  
+
+}
+
+#main_div{
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  
+}
+
+#Privacy_Policy_li_design{
+  text-decoration: none;
+  color: gray;
+}
+
+#Privacy_Policy_li_design:hover{
+  color:  lightblue;
+}
+
+#email_us{
+  text-decoration: none;
+  color: #318CE7;
+}
+
+#email_us:hover{
+  color:#0039a6;
+  transition: 0.2s;
+}

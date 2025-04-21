@@ -1,0 +1,501 @@
+body{
+    margin: 0px;
+    background: linear-gradient(180deg, #424658, #1a2026);
+    background-repeat: no-repeat;
+      
+}
+
+:root {
+    --primary-color: #0dcaf0;
+    --secondary-color: #343a40;
+    --text-color-light: #f8f9fa;
+    --text-color-muted: #dcdcdc;
+    --background-dark: #121212;
+    --background-light: #1e1e1e;
+    --font-family: 'Roboto', Arial, sans-serif;
+}
+  
+.main_div{
+    flex: 0 0 auto;
+    width: 912px;
+    height: auto;
+    margin: auto;
+}
+
+#Profi_avatar{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Profi_avatar img{
+    width: 100%; 
+    height: 100%;
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 1px solid black;
+    transition: transform 0.3s ease;
+    background-attachment: fixed;
+}
+
+#Profi_avatar img:hover{
+    transform: scale(1.01);
+}
+
+.Profil_username_information{
+
+    width: 250px;
+    height: 160px;
+    text-align: center;
+
+}
+
+#Profil_information{
+    padding-top: 5px;
+    width: 100%;
+    height: 150px;
+    margin-left: 0px;
+    margin-right: auto;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: left;
+    
+}
+
+#edit_profile{
+    margin: 20px;
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+    background-color: #333747;
+    border:1px solid #15171f;
+    border-radius: 5%;
+}
+
+#edit_profile p{
+    color: white;
+    height: 20px;
+    margin: 0px;
+}
+
+#table_h_username{
+    width: 100%px;
+    height: 50px;
+
+}
+
+
+#conection_information{
+
+    border-collapse: collapse;
+    width: 30%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+
+}
+
+#conection_information td{
+    border-right: 2px solid black;
+    border-right-style: dotted;
+    text-align: center;
+
+}
+
+.td_data_1{
+    border-top: 1px solid black;
+    font-size: 12px;
+    font-family: 'Verdana', sans-serif;
+    color: gray;
+
+}
+
+#Profil_username_information{
+    padding: 1%;
+    display: flex;
+    width: 300px;
+    height: auto;
+}
+
+#Activity_bar{
+    width: 99%;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 1%;
+    margin: auto;
+    margin-top: 10px;
+    text-decoration: none;
+    
+}
+
+#table_Activity{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+#table_Activity td{
+
+    height: 100%;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+#table_Activity td button{
+    color: #121517;
+    
+}
+
+
+#User-Name{
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+
+    
+}
+
+#edit_profile_td{
+    width: 40%;
+}
+
+#bio{
+    color: white;
+}
+
+/* Favorite films */
+
+#Favorite_films_TVshows{
+   /* background-color: blue; */
+    width: 99%;
+    height: 740px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.button{
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    color: white ;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: border 0s ease;
+}
+
+.button.active {
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+#Fav-films{
+    display: flex;
+}
+
+/* ============ fav films div   ============ */
+
+.Fav-films_div{
+    flex: 0 0 auto;
+    background-color: #15171f;
+    height: 300px;
+    width: 207.65px;
+    border-radius: 5px;
+    margin-left: 9.033125px;
+    margin-right: 9.033125px;
+}
+.Fav-films_div img{
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    transition: transform 0.3s ease;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-attachment: fixed;
+}
+.Fav-films_div img:hover{
+    transform: scale(1.05);
+}
+
+/* ============ fav TV-shows div  ============ */
+
+#Favorite_TVshows{
+    /* background-color: blue; */
+    width: 100%;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#Fav-TV-shows{
+    display: flex;
+}
+
+.Fav_TVshows_div{
+    flex: 0 0 auto;
+    background-color: #15171f;
+    height: 300px;
+    width: 207.65px;
+    border-radius: 5px;
+    margin-left: 9.033125px;
+    margin-right: 9.033125px;
+}
+.Fav_TVshows_div img{
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    transition: transform 0.3s ease;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-attachment: fixed;
+}
+.Fav_TVshows_div img:hover{
+    transform: scale(1.05);
+}
+/* =================================== */
+.div_12345{
+    outline: 1px solid white;
+    width: 99%;
+    height: 20px;
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 7px;
+    padding-left: 5px;
+}
+/* =================================== */
+
+/* ===========    films    =========== */
+
+#films{
+    /*background-color: blue; */
+    width: 99%;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+#films_cards_div{
+    display: flex;
+    height: 240px;
+}
+
+.film_card{
+    width: 140px;
+    height: 210px;
+    margin: 5.23875px;
+    border-radius: 2px;
+}
+
+.film_card img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.film_card img:hover{
+    transform: scale(1.05);
+    transition: 0.25s;
+}
+
+/* ================== tvshows ======================== */
+
+#tvshows{
+
+    width: 99%;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* ==================== content ========================*/
+
+.content {
+    display: none;
+}
+.content.active {
+    display: block;
+}
+
+/*  ====================================================*/
+
+/* ================ film box content===================*/
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+
+  .modal-content {
+    background: radial-gradient(circle at center, var(--secondary-color),var(--background-light) , var(--background-dark));
+
+    padding: 20px;
+    border-radius: 10px;
+    width: 900px;
+    height: 420px;
+    text-align: left;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    
+  }
+
+  .close-button {
+
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+
+  }
+
+  #movie_rating_releaseDate_div{
+    width: 250px;
+    padding: 5px;
+  }
+
+  .modal-image {
+
+    border: 1px solid black;
+    margin-right: 20px;
+    width: 190px;
+    height: 300px;
+    border-radius: 10px;
+  }
+
+  .modal-details {
+    margin-top: 0px;
+    text-align: left;
+    width: 500px;
+    height: 300px;
+  }
+
+  .modal-details h3 {
+    margin: 0px;
+  }
+
+  .modal-details p {
+    margin: 2px 0;
+  }
+  .td_data_1 {
+    color: rgb(255, 255, 255);
+    outline: 1px solid rgb(255, 255, 255);
+}
+
+
+/*============ modal ============*/
+
+.edit-button-1 {
+
+    padding: 8px 0px;
+    font-size: 14px;
+    background-color: #7289da;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .edit-button-1:hover {
+    background-color: #5a6fb4;
+  }
+
+
+.modal-1 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .modal-1.active {
+    display: flex;
+  }
+
+  .modal-content-1 {
+    justify-content: center;
+    background: radial-gradient(circle at center, var(--secondary-color),var(--background-light) , var(--background-dark));
+    color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    height: 285px;
+    text-align: center;
+    border: 2px solid white;
+  }
+
+  .modal-content-1 input {
+    width: 50%;
+    height: 25px;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    background-color:  transparent;
+    color: white; 
+    text-align: center;
+  }
+
+  .modal-content-1 button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    font-size: 14px;
+    background-color: #7289da;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .modal-content-1 button:hover {
+    background-color: #5a6fb4;
+  }
+
+      .edit-button-1 {
+      margin-top: 15px;
+      padding: 8px 15px;
+      font-size: 14px;
+      background-color: #7289da;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .edit-button-1:hover {
+      background-color: #5a6fb4;
+    }

@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Faqja jonë</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../../style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        
+        .founder-text {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #343a40;
+        }
+        .team-member {
+            margin-bottom: 2rem;
+        }
+        .team-member h5 {
+            color: #28a745; 
+            font-size: 1.4rem;
+            font-weight: bold;
+        }
+        .team-member p {
+            font-size: 1rem;
+            color: #6c757d;
+        }
+        .main-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #007bff; 
+        }
+        .highlighted-text {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #212529;
+            margin-top: 1rem;
+        }
+        .standout-text {
+            color: #ff4500;
+            font-weight: bold;
+        }
+        .spacer {
+            height: 3rem;
+        }
+        .highlight {
+            background-color: rgba(249, 249, 249, 0); 
+        }
+        #our-team{
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase; 
+        }
+
+    .job-announcement {
+      border: 2px solid #007bff;
+      border-radius: 8px;
+      padding: 20px;
+      max-width: 450px;
+      margin: 20px auto;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .job-announcement h2 {
+      color: #007bff;
+      margin-bottom: 10px;
+    }
+
+    .job-announcement p {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+
+    .job-announcement a {
+      display: inline-block;
+      padding: 10px 20px;
+      color: white;
+      background-color: #007bff;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .job-announcement a:hover {
+      background-color: #70adee;
+    }
+
+    /* ====== HTML FORM ====== */ 
+
+    .formbold-mb-3 {
+      margin-bottom: 15px;
+    }
+  
+    .formbold-main-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      
+    }
+  
+    .formbold-form-wrapper {
+      margin: 0 auto;
+      max-width: 570px;
+      width: 100%;
+      background: white;
+      padding: 25px;
+      border: 3px solid #007bff;
+      border-radius: 5px;
+    }
+  
+    .formbold-img {
+      display: block;
+      margin: 0 auto 45px;
+    }
+  
+    .formbold-input-wrapp > div {
+      display: flex;
+      gap: 20px;
+    }
+  
+    .formbold-input-flex {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 15px;
+    }
+    .formbold-input-flex > div {
+      width: 50%;
+    }
+    .formbold-form-input {
+      width: 100%;
+      padding: 13px 22px;
+      border-radius: 5px;
+      border: 1px solid #dde3ec;
+      background: #ffffff;
+      font-weight: 500;
+      font-size: 16px;
+      color: #536387;
+      outline: none;
+      resize: none;
+    }
+
+  
+    .formbold-form-input:focus {
+      border-color: #6a64f1;
+      box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+    }
+    .formbold-form-label {
+      color: #07074D;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .formbold-form-file-flex {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .formbold-form-file-flex .formbold-form-label {
+      margin-bottom: 0;
+    }
+    .formbold-form-file {
+      font-size: 14px;
+      line-height: 24px;
+      color: #536387;
+    }
+    .formbold-form-file::-webkit-file-upload-button {
+      display: none;
+    }
+    .formbold-form-file:before {
+      content: 'Upload file';
+      display: inline-block;
+      background: #EEEEEE;
+      border: 0.5px solid #FBFBFB;
+      box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.25);
+      border-radius: 3px;
+      padding: 3px 12px;
+      outline: none;
+      white-space: nowrap;
+      cursor: pointer;
+      color: #637381;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      margin-right: 10px;
+    }
+  
+    .formbold-btn {
+      text-align: center;
+      width: 100%;
+      font-size: 16px;
+      border-radius: 5px;
+      padding: 14px 25px;
+      border: none;
+      font-weight: 500;
+      background-color: #6a64f1;
+      color: white;
+      cursor: pointer;
+      margin-top: 25px;
+    }
+    .formbold-btn:hover {
+      box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+    }
+  
+    .formbold-w-45 {
+      width: 45%;
+    }
+
+    .error {
+      color: red;
+      font-size: 0.9em;
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+
+    </style>
+</head>
+<body class="overflow-x-hidden">
+    <!-- Navbar placeholder -->
+    <div id="navbar-placeholder"></div>
+    
+    <div class="container py-5">
+        <div class="spacer"></div>
+
+        <!-- Seksioni: Ekipi dhe Partnerët -->
+        <section>
+        <div class="py-5">
+            <h2 id="our-team" class="text-center" style="font-size: 3rem; color: rgb(232, 232, 232);">Njihuni me Ekipin Tonë</h2>
+            <div class="row text-center mt-4">
+               
+                <div class="col-md-2 offset-md-1 team-member" style="border: 1px solid #28a745; padding: 20px; text-align: center;">
+                    <h5><b>Albi <br> Kallaba</b></h5>
+                    <p class="founder-text"><i>Themelues &amp; Zhvillues</i></p>
+                </div>
+            
+                <div class="col-md-2 team-member" style="border: 1px solid #28a745; padding: 20px; text-align: center;">
+                    <h5><b>Bashkim Hashani</b></h5>
+                    <p class="founder-text"><i>Themelues &amp; Zhvillues</i></p>
+                </div>
+                <div class="col-md-2 team-member" style="border: 1px solid #28a745; padding: 20px; text-align: center;">
+                    <h5><b>Benjamin Voca</b></h5>
+                    <p class="founder-text"><i>Themelues &amp; Zhvillues</i></p>
+                </div>
+                <div class="col-md-2 team-member" style="border: 1px solid #28a745; padding: 20px; text-align: center;">
+                    <h5><b>Diellart Mulolli</b></h5>
+                    <p class="founder-text"><i>Themelues &amp; Zhvillues</i></p>
+                </div>
+                <div class="col-md-2 team-member" style="border: 1px solid #28a745; padding: 20px; text-align: center;">
+                    <h5><b>Shpëtim Panduri</b></h5>
+                    <p class="founder-text"><i>Themelues &amp; Zhvillues</i></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Seksioni: Informacioni për platformën -->
+        <div class="row py-5">
+            
+            <div class="col-md-6">
+
+                <article><h2 class="highlight">Rreth Platformës</h2></article>
+                <p>Faqja jonë është krijuar për të qenë vendi ideal për dashamirësit e kinemasë dhe serive televizive.</p>
+                <p>Me ne, ju mund të zbuloni filmat e rinj, të shijoni rekomandimet më të përshtatshme dhe të thelloheni në botën e kinemasë me përmbajtje të personalizuar për interesat tuaja.</p>
+                <p>Bashkohuni me komunitetin tonë dhe eksploroni pafundësinë e botës së filmit!</p>
+                <p>Ne gjithashtu ofrojmë analiza të detajuara për filmat tuaj të preferuar, duke përfshirë vlerësime të kritikëve dhe rekomandime bazuar në shijet tuaja.</p>
+                <p>Përveç kësaj, keni mundësi të ndani mendimet tuaja me një komunitet të gjerë adhuruesish të filmit, duke krijuar një përvojë më sociale dhe interaktive.</p>
+                <p>Për të filluar udhëtimin tuaj, <a href="../create_account/create_account.html"><u>krijoni një llogari tani</u></a>.</p>
+                <p>Faqja jonë nuk përmban reklama dhe asgjë që krijon monotoni tek shikuesit tanë. Ne mundohemi që qëndrimin tuaj në faqen tonë t'a bëjmë sa më të rehatshëm.</p>
+            </div>
+            
+            <div class="col-md-6">
+                <h2 class="highlight">Misioni Ynë</h2>
+                <p>Misioni ynë është të bëjmë të mundur që artin e kinemasë ta përjetojë çdo individ. Çdo film apo seri televizive përmban një histori unike, dhe ne jemi këtu për t'ju ndihmuar t'i gjeni dhe t'i shijoni ato.</p>
+                <p>Ne sjellim përmbajtje inspiruese që nga veprat e pavdekshme klasike deri te risitë më emocionuese, duke krijuar një përvojë të paharrueshme për çdo adhurues të kinemasë.</p>
+                <p>Për të parë listën e plotë të filmave, ju ftojmë të vizitoni <a href="../../index.html">Faqen Kryesore</a>.</p>
+                <p>Në rast se hasni ndonjë paqartësi ose parregullsi, ju lutemi na kontaktoni për të na njoftuar. Kritikat dhe sugjerimet tuaja janë thelbësore për përmirësimin tonë të vazhdueshëm.</p>
+                <address>
+                    Ju mund të na kontaktoni në: <br>
+                    Email: <b>CineVerse@gmail.com</b><br>
+                    Telefon: <b>+383-38-111-222</b>
+                </address>
+            </div>
+        </div>
+
+        <!-- Seksioni përmirësuar: Tabela -->
+        <div class="row py-5">
+            <div class="col-md-6">
+                <h2 class="highlight">Vlerat Tona</h2>
+                <p>Ne besojmë në integritet, transparencë dhe përkushtim ndaj artit të kinemasë. Çdo vendim që marrim është i bazuar në këto vlera thelbësore.</p>
+                <ul>
+                    <li>Integritet
+                        <ul>
+                            <li>Veprimet e sinqerta</li>
+                            <li>Vendimet etike</li>
+                        </ul>
+                    </li>
+                    <li>Transparencë
+                        <ol>
+                            <li>Komunikimi i hapur</li>
+                            <li>Besueshmëria</li>
+                        </ol>
+                    </li>
+                    <li>Përkushtim
+                        <ul style="list-style-type: square;">
+                            <li>Cilësia e lartë</li>
+                            <li>Fokus tek përdoruesit</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h2 class="highlight">Përvoja Juaj</h2>
+                <p>Për ne, është me rëndësi që ju të ndiheni të përfshirë dhe të kënaqur me shërbimet tona. <span style="font-weight: bold; color: #007bff;">Ju jeni prioriteti ynë!</span></p>
+                <p>Ne jemi të përkushtuar të përmirësojmë vazhdimisht, duke ofruar funksionalitete të reja dhe përmbajtje të freskët për çdo vizitë tuajën.</p>
+                <table style="width: 100%; border: 2px solid #007bff; border-spacing: 5px; padding: 10px;">
+                    <tr>
+                        <td style="background-color: #000000; color: #ffffff;">Filmat e fundit</td>
+                        <td style="background-color: #000000; color: #ffffff;">Zbuloni filmat më të rinj</td>
+                        <td style="background-color: #000000; color: #ffffff;">Përvoja e përditësuar</td>
+                    </tr>
+                    <tr>
+                        <td>Rekomandime</td>
+                        <td>Filma të personalizuar</td>
+                        <td>Kënaqësi më e madhe</td>
+                    </tr>
+                    <tr>
+                        <td>Pa reklama</td>
+                        <td>Shikim pa ndërprerje</td>
+                        <td>Angazhim më i madh në shikim</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Seksioni shtesë -->
+        <div class="py-5">
+            <h2 class="highlight text-center">Kontakt dhe Sugjerime</h2>
+            <p class="text-center">Ne vlerësojmë mendimet dhe sugjerimet tuaja. Nëse keni ndonjë pyetje, sugjerim apo kërkesë për sqarim, ju lutemi <a href="../contact/contact.html">na kontaktoni</a>. Ne jemi këtu për t'ju ndihmuar në çdo hap.</p>
+            <aside><p class="text-center">Feedback-u juaj është thelbësor për përmirësimin dhe zhvillimin e platformës sonë. Çdo mendim i juaji na ndihmon të rrisim cilësinë dhe funksionalitetin tonë.</p></aside>
+            <p class="text-center"><abbr title="CineVerse">Faqja jonë</abbr> promovon kualitet dhe cilësi</p>
+        </div>
+
+        <!--  apliko -->
+
+        <div class="job-announcement">
+            <h2>Jemi Duke Punësuar!</h2>
+            <p>Jemi aktualisht në kërkim të një <strong> Moderator</strong> për t'u bashkuar me ekipin tonë.</p>
+            <p>Nëse jeni të interesuar, klikoni butonin më poshtë për të aplikuar!</p>
+            <button class="formbold-btn" id="AplikoButton" > Apliko Tani</button>
+          </div>
+
+          <!-- application form -->
+
+          <div class="formbold-main-wrapper" >
+
+            <div class="formbold-form-wrapper">
+        
+              <form id="applicationForm">
+        
+                <div class="formbold-input-flex">
+                  <div>
+                    <label for="firstname" class="formbold-form-label"> First Name </label>
+                    <input
+                      type="text"
+                      name="firstname"
+                      id="firstname"
+                      placeholder="Your first name"
+                      class="formbold-form-input"
+                    />
+                    <p id="firstnameError" class="error"></p>
+                  </div>
+          
+                  <div>
+                    <label for="lastname" class="formbold-form-label"> Last Name </label>
+                    <input
+                      type="text"
+                      name="lastname"
+                      id="lastname"
+                      placeholder="Your last name"
+                      class="formbold-form-input"
+                    />
+                    <p id="lastnameError" class="error"></p>
+                  </div>
+                </div>
+          
+                <div class="formbold-input-flex">
+                  <div>
+                      <label for="email" class="formbold-form-label"> Email </label>
+                      <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="example@email.com"
+                      class="formbold-form-input"
+                      />
+                      <p id="emailError" class="error"></p>
+                  </div>
+          
+                  <div>
+                      <label class="formbold-form-label">Gender</label>
+          
+                      <select class="formbold-form-input" name="occupation" id="occupation">
+                      <option value="male">Male</option>
+                      <option value="female">Female</option>
+                      <option value="others">Others</option>
+                      </select>
+                      <p id="genderError" class="error"></p>
+                  </div>
+                </div>
+          
+                <div class="formbold-mb-3 formbold-input-wrapp">
+                  <label for="phone" class="formbold-form-label"> Phone </label>
+          
+                  <div>
+                    <input
+                      type="text"
+                      name="areacode"
+                      id="areacode"
+                      placeholder="Area code"
+                      class="formbold-form-input formbold-w-45"
+                    />
+          
+                    <input
+                      type="text"
+                      name="phone"
+                      id="phone"
+                      placeholder="Phone number"
+                      class="formbold-form-input"
+                    />
+                    <p id="phoneError" class="error"></p>
+                  </div>
+                </div>
+          
+                <div class="formbold-mb-3">
+                  <label for="age" class="formbold-form-label"> Applying for Position: </label>
+                  <input
+                    type="text"
+                    name="age"
+                    id="age"
+                    class="formbold-form-input"
+                    value="Moderator" readonly
+                  />
+                </div>
+          
+                <div class="formbold-mb-3">
+                  <label for="dob" class="formbold-form-label"> When can you start? </label>
+                  <input type="date" name="dob" id="dob" class="formbold-form-input" />
+                  <p id="dobError" class="error"></p>
+                </div>
+          
+                <div class="formbold-mb-3">
+                  <label for="address" class="formbold-form-label"> Address </label>
+          
+                  <input
+                    type="text"
+                    name="address"
+                    id="address"
+                    placeholder="Street address"
+                    class="formbold-form-input formbold-mb-3"
+                  />
+                  <p id="addressError" class="error"></p>
+                </div>
+
+                <button type="submit"  class="formbold-btn">Submit</button>
+
+    
+
+    <script>
+        $(document).ready(function(){
+            $(".formbold-form-wrapper").hide();
+            $("#AplikoButton").click(function(){
+                $(".formbold-form-wrapper").fadeToggle(700);
+                
+            });
+        });
+
+
+        const form = document.getElementById("applicationForm");
+
+    form.addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      // Clear previous error messages
+      document.querySelectorAll(".error").forEach((el) => (el.textContent = ""));
+
+      // Gather form inputs
+      const firstname = document.getElementById("firstname").value.trim();
+      const lastname = document.getElementById("lastname").value.trim();
+      const email = document.getElementById("email").value.trim();
+      const gender = document.getElementById("occupation").value;
+      const phone = document.getElementById("phone").value.trim();
+      const dob = document.getElementById("dob").value;
+      const address = document.getElementById("address").value.trim();
+
+      let valid = true;
+
+      // Validation logic
+      if (!firstname) {
+        document.getElementById("firstnameError").textContent = "First name is required.";
+        valid = false;
+      }
+      if (!lastname) {
+        document.getElementById("lastnameError").textContent = "Last name is required.";
+        valid = false;
+      }
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!email || !emailRegex.test(email)) {
+        document.getElementById("emailError").textContent = "Enter a valid email.";
+        valid = false;
+      }
+      if (!gender) {
+        document.getElementById("genderError").textContent = "Select a gender.";
+        valid = false;
+      }
+      const phoneRegex = /^\d{10}$/;
+      if (!phone || !phoneRegex.test(phone)) {
+        document.getElementById("phoneError").textContent = "Enter a valid 10-digit phone number.";
+        valid = false;
+      }
+      if (!dob) {
+        document.getElementById("dobError").textContent = "Select a starting date.";
+        valid = false;
+      }
+      if (!address) {
+        document.getElementById("addressError").textContent = "Address is required.";
+        valid = false;
+      }
+
+      // Final submission
+      if (valid) {
+        alert("Form submitted successfully!");
+        form.reset();
+      }
+      form.addEventListener('change', (event) => {
+          console.log('privacy policy changed');
+      });
+
+    });        
+
+    </script>
+
+    <!-- Footer placeholder -->
+    <div id="footer-placeholder"></div>
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="index.js"></script>
+</body>
+</html>
+

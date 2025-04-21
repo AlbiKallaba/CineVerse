@@ -1,0 +1,566 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOkCnqEu92Fr1MmgWxP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5vAw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmEU9vAw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlvAw.ttf) format('truetype');
+}
+/* Base Theme for CineVerse */
+:root {
+  --primary-color: #0dcaf0;
+  --secondary-color: #343a40;
+  --text-color-light: #f8f9fa;
+  --text-color-muted: #dcdcdc;
+  --background-dark: #121212;
+  --background-light: #1e1e1e;
+  --font-family: 'Roboto', Arial, sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--text-color-light);
+  background-color: var(--background-dark);
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+hr {
+  background-color: var(--primary-color);
+  color: var(--primary-color);
+  /* border: 5px solid var(--background-dark); */
+}
+
+a {
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--text-color-light);
+}
+
+.navbar {
+  /* background-color: var(--secondary-color); */
+  background-color: var(--background-dark);
+  border-bottom: 2px solid var(--primary-color);
+}
+
+#icon {
+  filter: brightness(0) invert(1); /* Turns the icon white */
+  width: 5rem; /* Adjust width */
+  height: 5rem; /* Adjust height */
+  border-radius: 0.5rem; /* Optional: Rounded corners */
+  padding: 0.5rem; /* Optional: Inner spacing */
+  transition: transform 0.3s ease, fill 0.3s ease; /* Add a hover effect */
+}
+
+#icon:hover {
+  fill: var(--secondary-color); /* Change fill color on hover */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.navbar-brand,
+.nav-link {
+  color: var(--text-color-light) !important;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: var(--primary-color) !important;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: darken(var(--primary-color), 10%);
+}
+
+.card {
+  background-color: var(--background-light);
+  color: var(--text-color-light);
+  border: none;
+  border-radius: 0.5rem;
+}
+
+footer {
+  background-color: var(--secondary-color);
+  color: var(--text-color-light);
+}
+
+/* Forms */
+input,
+textarea,
+select {
+  background-color: #222;
+  /* Dark input fields */
+  color: #f8f9fa;
+  border: 1px solid #555;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #0dcaf0;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+th,
+td {
+  padding: 0.75rem;
+  text-align: left;
+  border: 1px solid #444;
+}
+
+th {
+  background-color: #343a40;
+  color: #f8f9fa;
+}
+
+td {
+  background-color: #222;
+  color: #dcdcdc;
+}
+
+/* Utility Classes */
+.text-light {
+  color: #f8f9fa !important;
+}
+
+.bg-dark {
+  background-color: #121212 !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+
+/*================== MOVIE GRID MAIN PAGE ==================*/
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* 5 equal columns */
+  gap: 1rem;
+  /* Spacing between grid items */
+  margin: 2rem auto;
+  /* Center the grid content */
+  padding: 1rem;
+}
+
+/* For responsiveness, adjust columns based on screen size */
+@media (max-width: 1200px) {
+  .movie-grid {
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 columns for medium screens */
+  }
+}
+
+@media (max-width: 992px) {
+  .movie-grid {
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columns for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .movie-grid {
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 columns for tablets */
+  }
+}
+
+@media (max-width: 576px) {
+  .movie-grid {
+    grid-template-columns: 1fr;
+    /* 1 column for mobile */
+  }
+}
+
+/* MOVIE CARDS */
+
+.card {
+  background-color: var(--background-light);
+  border: none;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  color: var(--text-color-light);
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: var(--text-color-light);
+}
+
+.shadow-sm {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+ul > div.box{
+  display: right;
+}
+
+
+/*=MOVIE SCROLLER CSS*/
+
+#dynamic-slider-content {
+  margin-top: 130px;
+  /* height: 900px; */
+  display: flex;
+  gap: 4vmin;
+  position: relative;
+  overflow: show;
+  top: 27vh;
+  left: 0%;
+  transform: translate(0%, -50%); 
+  white-space: nowrap; /* Prevents line breaks */
+  user-select: none; /* Prevent image highlighting */
+  -webkit-user-select:none;
+  width: max-content;
+}
+#dynamic-tv_show-slider-content {
+  margin-top: 130px;
+  /* height: 900px; */
+  display: flex;
+  gap: 4vmin;
+  position: relative;
+  overflow: show;
+  top: 20vh;
+  left: 0%;
+  transform: translate(0%, -50%); 
+  white-space: nowrap; /* Prevents line breaks */
+  user-select: none; /* Prevent image highlighting */
+  -webkit-user-select:none;
+  width: max-content;
+}
+.movie-card {
+  width: max-content;
+
+  img {
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+  }
+}
+  
+
+#slider-placeholder {
+  overflow: hidden;
+  width: 100%;
+}
+/*================== END OF MOVIE GRID MAIN PAGE ===================*/
+
+.box{
+  height: 40px;
+  display: flex;
+  cursor: pointer;
+  padding: 10px 20px;
+  background: #9AA2A4;
+  border-radius: 30px;
+  align-items: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  margin-left: auto;
+  margin-right: 2%;
+  
+}
+.box input{
+  width: 0;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  transition: 0.8s;
+  background: transparent;
+}
+
+
+.box a .fas{
+  color: black;
+  font-size: 18px;
+}
+.fas{
+  align-self: flex-end;
+}
+/*========================================*/
+/*
+#intruduction_photo{
+  width: 900px;
+  height: 560px;
+  background-image: url(kill-bill1.jpg);
+  margin-left: auto;
+  margin-right: auto; 
+
+}
+
+#description_text{
+  width: 42%;
+  height: 250px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 45px;
+  font-family: 'Times New Roman', Times, serif ;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+*/
+/*=========Footer=================*/
+
+#footer_ul{
+  list-style-type: none;
+}
+
+#footer-col{
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* ==========FOOTER=============*/
+
+footer{
+  background-color: white;
+}
+
+.FooterContainer{
+  background-color: black;
+  padding: 70px 30px 20px;
+  width: 100%;
+  border-top: 2px solid var(--primary-color);
+
+}
+
+.footer_li{
+  list-style-type: none;
+}
+
+.SocialIcons{
+  display: flex;
+  justify-content: center;
+}
+
+.SocialIcons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.SocialIcons a i{
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+
+.SocialIcons a:hover{
+  background-color: black;
+  transition: 0.7s;
+}
+
+.SocialIcons a:hover i{
+  color: white;
+  transition: 0.7s;
+}
+
+.foooterNav{
+  margin: 30px 0;
+}
+
+.foooterNav>ul{
+  display: flex;
+  justify-content: center;
+
+}
+
+.foooterNav ul li a{
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5;
+}
+
+.foooterNav ul li a:hover{
+  opacity: 1;
+}
+
+#panel li{
+  list-style-type: none;
+  position: relative;
+  right:17px;
+  z-index: 1000;
+}
+#panel a{
+  text-decoration: none;
+}
+/* ================== ACCOUNT BUTTON =============*/
+
+.User_Account{
+  height: 40px;
+  width: 40px;
+  display: flex;
+  cursor: pointer;
+  padding: 5px 10px;
+  background: #9AA2A4;
+  border-radius: 50%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  margin-right: 2%;
+
+}
+
+.User_Account a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+}
+
+.User_Account a i{
+  height: 30px;
+  width: 30px;
+  font-size: 1.5em;
+  color: black;
+  opacity: 0.9;
+  border-radius: 50%;
+
+}
+
+.User_Account a i:hover{
+  color: #3457D5;
+  transition: 0.7s;
+}
+
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #007BFF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+#backToTop.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+#backToTop canvas {
+  width: 30px;
+  height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box {
+  display: flex;
+  margin-bottom: 20px;
+}
+#search_box {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+.search_button {
+  text-decoration: none;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#results .movie {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#results .movie img {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+}

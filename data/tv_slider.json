@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Utopia",
+        "rating": "8.4/10",
+        "description": "The six-episode conspiracy drama from writer Dennis Kelly pivots around a mysterious cult graphic novel called `The Utopia Experiments', which attracts a large following of fans who gather online to talk about it.",
+        "releaseDate": "2013-01-15",
+        "actors": "Alexandra Roach , Adeel Akhtar , Paul Higgins , Fiona O'Shaughnessy",
+        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRglwv_Olkl9t2dEf7jxAxU6Qpu_P5KJXUAGi7_RNZGZOHlwT75w352GBzZ33aoi3_TXI0fMA",
+        "trailer":"https://www.youtube.com/embed/LVLKWhLNuZk"
+    },
+    {
+        "title": "Arcane",
+        "rating": "9.0/10",
+        "description": "Arcane is an animated series set in the League of Legends universe, exploring the origin stories of iconic characters from the utopian city of Piltover and the oppressed underground of Zaun. The series is praised for its stunning animation and deep storytelling.",
+        "releaseDate": "2021-11-06",
+        "actors": "Hailee Steinfeld, Kevin Alejandro, Jason Spisak, Ella Purnell",
+        "image": "https://m.media-amazon.com/images/M/MV5BOWJhYjdjNWEtMWFmNC00ZjNkLThlZGEtN2NkM2U3NTVmMjZkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "trailer":"https://www.youtube.com/embed/g-6g2uEjF1s"
+    },
+    {
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "rating": "9.1/10",
+        "description": "Fullmetal Alchemist: Brotherhood is a Japanese anime series that follows brothers Edward and Alphonse Elric, who use alchemy in their quest to find the Philosopher's Stone to restore their bodies after a failed alchemical experiment. The series is acclaimed for its intricate plot and philosophical themes.",
+        "releaseDate": "2009-04-05",
+        "actors": "Romi Park, Rie Kugimiya, Megumi Takamoto, Shin'ichirô Miki",
+        "image": "https://m.media-amazon.com/images/M/MV5BMzNiODA5NjYtYWExZS00OTc4LTg3N2ItYWYwYTUyYmM5MWViXkEyXkFqcGc@._V1_.jpg",
+        "trailer":"https://www.youtube.com/embed/kx0nBaS_q50"
+    },
+    {
+        "title": "Avatar: The Last Airbender",
+        "rating": "9.3/10",
+        "description": "Avatar: The Last Airbender is an animated series set in a world where people can manipulate the elements of water, earth, fire, and air. The story follows Aang, the last Airbender and the Avatar, as he embarks on a quest to bring balance to the world.",
+        "releaseDate": "2005-02-21",
+        "actors": "Zach Tyler, Mae Whitman, Jack De Sena, Dante Basco",
+        "image": "https://m.media-amazon.com/images/M/MV5BMDMwMThjYWYtY2Q2OS00OGM2LTlkODQtNDJlZTZmMjAyYmFhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "trailer":"https://www.youtube.com/embed/ooVvH2IYz0w"
+    },
+    {
+        "title": "House of the Dragon",
+        "rating": "8.4/10",
+        "description": "House of the Dragon is a fantasy drama series that serves as a prequel to 'Game of Thrones.' It chronicles the history of House Targaryen, focusing on the events leading up to and during the Targaryen civil war known as the Dance of the Dragons.",
+        "releaseDate": "2022-08-21",
+        "actors": "Paddy Considine, Emma D'Arcy, Matt Smith, Olivia Cooke",
+        "image": "https://m.media-amazon.com/images/M/MV5BM2QzMGVkNjUtN2Y4Yi00ODMwLTg3YzktYzUxYjJlNjFjNDY1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "trailer":"https://www.youtube.com/embed/DotnJ7tTA34"
+    },
+    {
+        "title": "The Queen's Gambit",
+        "rating": "8.6/10",
+        "description": "The Queen's Gambit is a coming-of-age period drama that follows Beth Harmon, an orphaned chess prodigy, as she rises to prominence in the male-dominated world of competitive chess while struggling with addiction and personal challenges.",
+        "releaseDate": "2020-10-23",
+        "actors": "Anya Taylor-Joy, Bill Camp, Marielle Heller, Thomas Brodie-Sangster",
+        "image": "https://m.media-amazon.com/images/M/MV5BMmRlNjQxNWQtMjk1OS00N2QxLTk0YWQtMzRhYjY5YTFhNjMxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "trailer":"https://www.youtube.com/embed/oZn3qSgmLqI"
+    },
+    {
+        "title": "Over the Garden Wall",
+        "rating": "8.8/10",
+        "description": "Over the Garden Wall is an animated miniseries that follows two half-brothers, Wirt and Greg, as they become lost in a mysterious forest called The Unknown and attempt to find their way home, encountering various strange and whimsical characters along the way.",
+        "releaseDate": "2014-11-03",
+        "actors": "Elijah Wood, Collin Dean, Melanie Lynskey, Christopher Lloyd",
+        "image": "https://m.media-amazon.com/images/M/MV5BOTA2MTdhZmItODM3NS00ZmFlLWE4YWYtOWYxODBmNGU5YjRjXkEyXkFqcGc@._V1_.jpg",
+        "trailer":"https://www.youtube.com/embed/36mAsVSH_-s"
+    },
+    {
+        "title": "Loki",
+        "rating": "8.2/10",
+        "description": "Loki is a Marvel series that follows the God of Mischief after the events of 'Avengers: Endgame.' The show explores Loki's adventures across different timelines and his involvement with the Time Variance Authority, an organization that monitors the multiverse.",
+        "releaseDate": "2021-06-09",
+        "actors": "Tom Hiddleston, Owen Wilson, Gugu Mbatha-Raw, Sophia Di Martino",
+        "image": "https://m.media-amazon.com/images/M/MV5BM2FiMjQ0ZjAtYzc1OC00NzgzLWIyNmQtYmIwYjdhZWM5MmRiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "trailer":"https://www.youtube.com/embed/nW948Va-l10"
+    }
+]

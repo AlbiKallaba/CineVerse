@@ -1,0 +1,778 @@
+[
+  {
+    "Title": "Dune: Part Two",
+    "Year": "2024",
+    "Rated": "PG-13",
+    "Released": "01 Mar 2024",
+    "Runtime": "166 min",
+    "Genre": "Action, Adventure, Drama",
+    "Director": "Denis Villeneuve",
+    "Writer": "Denis Villeneuve, Jon Spaihts, Frank Herbert",
+    "Actors": "Timothée Chalamet, Zendaya, Rebecca Ferguson",
+    "Plot": "Paul Atreides unites with the Fremen while on a warpath of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the universe, he endeavors to prevent a terrible future.",
+    "Language": "English",
+    "Country": "United States, Canada, United Arab Emirates, Hungary, Italy, New Zealand, Jordan, Gambia",
+    "Awards": "7 wins & 51 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNTc0YmQxMjEtODI5MC00NjFiLTlkMWUtOGQ5NjFmYWUyZGJhXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.5/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "92%"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "8.5",
+    "imdbVotes": "550,878",
+    "imdbID": "tt15239678",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$282,144,358",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True",
+    "Trailer": "https://www.youtube.com/embed/Way9Dexny3w"
+  },
+  {
+    "Title": "The Brutalist",
+    "Year": "2024",
+    "Rated": "N/A",
+    "Released": "23 Jan 2025",
+    "Runtime": "215 min",
+    "Genre": "Drama",
+    "Director": "Brady Corbet",
+    "Writer": "Brady Corbet, Mona Fastvold",
+    "Actors": "Adrien Brody, Felicity Jones, Guy Pearce",
+    "Plot": "When visionary architect László Toth and his wife Erzsébet flee post-war Europe in 1947 to rebuild their legacy and witness the birth of modern America, their lives are changed forever by a mysterious and wealthy client.",
+    "Language": "English, Hungarian, Italian, Hebrew, Yiddish",
+    "Country": "United States, United Kingdom, Hungary",
+    "Awards": "8 wins & 9 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMWEzOGNlY2EtMzlkZS00ODllLThmYzAtNmU4ZmJkZmZmZTQ4XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.1/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "97%"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "8.1",
+    "imdbVotes": "1,189",
+    "imdbID": "tt8999762",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True",
+    "Trailer":"https://www.youtube.com/embed/GdRXPAHIEW4"
+  },
+  {
+    "Title": "Furiosa: A Mad Max Saga",
+    "Year": "2024",
+    "Rated": "R",
+    "Released": "24 May 2024",
+    "Runtime": "148 min",
+    "Genre": "Action, Adventure, Sci-Fi",
+    "Director": "George Miller",
+    "Writer": "George Miller, Nick Lathouris",
+    "Actors": "Anya Taylor-Joy, Chris Hemsworth, Tom Burke",
+    "Plot": "The origin story of renegade warrior Furiosa before her encounter and teamup with Mad Max.",
+    "Language": "English",
+    "Country": "Australia, United States",
+    "Awards": "1 win & 23 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNTcwYWE1NTYtOWNiYy00NzY3LWIwY2MtNjJmZDkxNDNmOWE1XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.5/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "90%"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.5",
+    "imdbVotes": "229,998",
+    "imdbID": "tt12037194",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$67,475,791",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True",
+    "Trailer":"https://www.youtube.com/embed/XJMuhwVlca4"
+  },
+  {
+    "Title": "The Substance",
+    "Year": "2024",
+    "Rated": "R",
+    "Released": "20 Sep 2024",
+    "Runtime": "141 min",
+    "Genre": "Drama, Horror",
+    "Director": "Coralie Fargeat",
+    "Writer": "Coralie Fargeat",
+    "Actors": "Demi Moore, Margaret Qualley, Dennis Quaid",
+    "Plot": "A fading celebrity takes a black-market drug: a cell-replicating substance that temporarily creates a younger, better version of herself.",
+    "Language": "English",
+    "Country": "United Kingdom, France, United States",
+    "Awards": "6 wins & 9 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZDQ1NGE5MGMtYzdlZC00ODExLWJlMDMtNWU4NjA5OWYwMDEwXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.5/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "90%"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.5",
+    "imdbVotes": "135,036",
+    "imdbID": "tt17526714",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$16,235,191",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True",
+    "Trailer":"https://www.youtube.com/embed/LNlrGhBpYjc"
+  },
+  {
+    "Title": "A Real Pain",
+    "Year": "2024",
+    "Rated": "R",
+    "Released": "01 Nov 2024",
+    "Runtime": "90 min",
+    "Genre": "Comedy, Drama",
+    "Director": "Jesse Eisenberg",
+    "Writer": "Jesse Eisenberg",
+    "Actors": "Kieran Culkin, Jesse Eisenberg, Olha Bosova",
+    "Plot": "Mismatched cousins reunite for a tour through Poland to honor their beloved grandmother. The adventure takes a turn when the odd-couple's old tensions resurface against the backdrop of their family history.",
+    "Language": "English",
+    "Country": "Poland, United States",
+    "Awards": "3 wins & 6 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BODY2YWYwM2YtZTVlNC00MjgyLTgzYTgtNmFmYWE5ZmY1MDM5XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.5/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "95%"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.5",
+    "imdbVotes": "3,353",
+    "imdbID": "tt21823606",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$3,171,624",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True",
+    "Trailer":"https://www.youtube.com/embed/b2et8Vpu7Ls"
+  },
+  {
+    "Title": "His Three Daughters",
+    "Year": "2023",
+    "Rated": "R",
+    "Released": "20 Sep 2024",
+    "Runtime": "101 min",
+    "Genre": "Drama",
+    "Director": "Azazel Jacobs",
+    "Writer": "Azazel Jacobs",
+    "Actors": "Carrie Coon, Natasha Lyonne, Elizabeth Olsen",
+    "Plot": "This tense, touching and funny portrait of family dynamics follows three estranged sisters as they converge in a New York apartment to care for their ailing father and try to mend their own broken relationship with one another.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "1 win & 4 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYzFhY2ZlYjctYjk1ZS00YTNiLWI0ZDktOGE3Y2YxZWQ5ZGQ4XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.2/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "98%"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.2",
+    "imdbVotes": "12,241",
+    "imdbID": "tt28491891",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True",
+    "Trailer":"https://www.youtube.com/embed/K0jwAP2fS1E"
+  },
+  {
+    "Title": "The Outrun",
+    "Year": "2024",
+    "Rated": "R",
+    "Released": "04 Oct 2024",
+    "Runtime": "118 min",
+    "Genre": "Drama",
+    "Director": "Nora Fingscheidt",
+    "Writer": "Amy Liptrot, Nora Fingscheidt, Daisy Lewis",
+    "Actors": "Saoirse Ronan, Paapa Essiedu, Nabil Elouahabi",
+    "Plot": "After living life on the edge in London, Rona attempts to come to terms with her troubled past. Hoping to heal, she returns to the wild beauty of Scotland's Orkney Islands where she grew up.",
+    "Language": "English",
+    "Country": "United Kingdom, Germany",
+    "Awards": "1 win & 12 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BM2Q0YTliNDMtYjRiNC00ZWE2LTg5ZjktNGZhNWRiYTk2ZTFlXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.9/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "81%"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "6.9",
+    "imdbVotes": "6,945",
+    "imdbID": "tt11687002",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$1,013,867",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True",
+    "Trailer":"https://www.youtube.com/embed/ReKQYf4Jdpc"
+  },
+  {
+    "Title": "Anora",
+    "Year": "2024",
+    "Rated": "R",
+    "Released": "17 Oct 2024",
+    "Runtime": "139 min",
+    "Genre": "Comedy, Drama, Romance",
+    "Director": "Sean Baker",
+    "Writer": "Sean Baker",
+    "Actors": "Mikey Madison, Paul Weissman, Lindsey Normington",
+    "Plot": "Anora, a young sex worker from Brooklyn, meets and impulsively marries the son of an oligarch. Once the news reaches Russia, her fairytale is threatened as his parents set out for New York to get the marriage annulled.",
+    "Language": "English, Russian, Armenian",
+    "Country": "United States",
+    "Awards": "6 wins & 7 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYThiN2M0NTItODRmNC00NDhlLWFiYTgtMWM2YTEyYzI3ZTY1XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.2/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "96%"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "8.2",
+    "imdbVotes": "18,941",
+    "imdbID": "tt28607951",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$10,421,398",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True",
+    "Trailer":"https://www.youtube.com/embed/rN6SW5HUNEw"
+  },
+  {
+    "Title": "Ghostlight",
+    "Year": "2024",
+    "Rated": "R",
+    "Released": "14 Jun 2024",
+    "Runtime": "115 min",
+    "Genre": "Comedy, Drama",
+    "Director": "Kelly O'Sullivan, Alex Thompson",
+    "Writer": "Kelly O'Sullivan",
+    "Actors": "Keith Kupferer, Katherine Mallen Kupferer, Tara Mallen",
+    "Plot": "When a construction worker unexpectedly joins a local theater's production of Romeo and Juliet, the drama onstage starts to mirror his own life.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "4 wins & 7 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BOTgzMTk2M2MtMmNhMi00MDdlLTk5ZDAtYjYyMDA2YjE4OTUxXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.5/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "99%"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.5",
+    "imdbVotes": "3,761",
+    "imdbID": "tt30321095",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$697,229",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True",
+    "Trailer":"https://www.youtube.com/embed/GuPkfvxmtdw"
+  },
+  {
+    "Title": "Inside Out 2",
+    "Year": "2024",
+    "Rated": "PG",
+    "Released": "14 Jun 2024",
+    "Runtime": "96 min",
+    "Genre": "Animation, Adventure, Comedy",
+    "Director": "Kelsey Mann",
+    "Writer": "Meg LeFauve, Dave Holstein, Kelsey Mann",
+    "Actors": "Amy Poehler, Maya Hawke, Kensington Tallman",
+    "Plot": "A sequel that features Riley entering puberty and experiencing brand new, more complex emotions as a result. As Riley tries to adapt to her teenage years, her old emotions try to adapt to the possibility of being replaced.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "2 wins & 12 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYWY3MDE2Y2UtOTE3Zi00MGUzLTg2MTItZjE1ZWVkMGVlODRmXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.6/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "90%"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.6",
+    "imdbVotes": "180,461",
+    "imdbID": "tt22022452",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$652,980,194",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True",
+    "Trailer":"https://www.youtube.com/embed/LEjhY15eCx0"
+  },
+  {
+    "Title": "Wicked",
+    "Year": "1998",
+    "Rated": "R",
+    "Released": "17 Jan 1998",
+    "Runtime": "88 min",
+    "Genre": "Thriller",
+    "Director": "Michael Steinberg",
+    "Writer": "Eric Weiss",
+    "Actors": "Louise Myrback, Julia Stiles, Chelsea Field",
+    "Plot": "Ellie is an average girl with typical teen problems: a bratty little sister, a nagging mom and a father that denies her the attention she desperately craves. But Ellie's not the kind of girl that gets mad. She gets evil.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "1 win & 1 nomination",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNjhlMWMyYzItNzljNy00YzY5LWI0NWItMDFhM2NkYzk3ZTY0XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "5.3/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "20%"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "5.3",
+    "imdbVotes": "3,491",
+    "imdbID": "tt0120088",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True",
+    "Trailer":"https://www.youtube.com/embed/6COmYeLsz4c"
+  },
+  {
+    "Title": "Young Woman and the Sea",
+    "Year": "2024",
+    "Rated": "PG",
+    "Released": "19 Jul 2024",
+    "Runtime": "129 min",
+    "Genre": "Biography, Drama, Romance",
+    "Director": "Joachim Rønning",
+    "Writer": "Jeff Nathanson, Glenn Stout",
+    "Actors": "Daisy Ridley, Tilda Cobham-Hervey, Stephen Graham",
+    "Plot": "The story of competitive swimmer Gertrude Ederle, who, in 1926, was the first woman to ever swim across the English Channel.",
+    "Language": "English",
+    "Country": "United States, Hungary, Italy, United Kingdom, France",
+    "Awards": "1 win & 2 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNjYxOThhYzMtMjVlOS00MjkzLTlkZmQtZTJiN2JhNDg5OGJkXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.6/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "89%"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.6",
+    "imdbVotes": "13,549",
+    "imdbID": "tt5177114",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$500,000",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True",
+    "Trailer":"https://www.youtube.com/embed/7tNvrYzPUrk"
+  },
+  {
+    "Title": "Challengers",
+    "Year": "2024",
+    "Rated": "R",
+    "Released": "26 Apr 2024",
+    "Runtime": "131 min",
+    "Genre": "Comedy, Drama, Romance",
+    "Director": "Luca Guadagnino",
+    "Writer": "Justin Kuritzkes",
+    "Actors": "Mike Faist, Josh O'Connor, Zendaya",
+    "Plot": "Tashi, a former tennis prodigy turned coach, transformed her husband into a champion. But to overcome a recent losing streak and redeem himself, he'll need to face off against his former best friend and Tashi's ex-boyfriend.",
+    "Language": "English, Romanian",
+    "Country": "Italy, United States",
+    "Awards": "9 wins & 21 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZTcyZGIyODctZGJhOS00MWUyLWI5ZWEtMjg4YzhkMDczMDBhXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.1/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "88%"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.1",
+    "imdbVotes": "120,424",
+    "imdbID": "tt16426418",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$50,119,408",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True",
+    "Trailer":"https://www.youtube.com/embed/VobTTbg-te0"
+  },
+  {
+    "Title": "Gladiator II",
+    "Year": "2024",
+    "Rated": "R",
+    "Released": "22 Nov 2024",
+    "Runtime": "148 min",
+    "Genre": "Action, Adventure, Drama",
+    "Director": "Ridley Scott",
+    "Writer": "David Scarpa, Peter Craig, David Franzoni",
+    "Actors": "Connie Nielsen, Paul Mescal, Denzel Washington",
+    "Plot": "After his home is conquered by the tyrannical emperors who now lead Rome, Lucius is forced to enter the Colosseum and must look to his past to find strength to return the glory of Rome to its people.",
+    "Language": "English",
+    "Country": "United States, United Kingdom, Morocco, Canada",
+    "Awards": "2 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMWYzZTM5ZGQtOGE5My00NmM2LWFlMDEtMGNjYjdmOWM1MzA1XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.0/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "75%"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.0",
+    "imdbVotes": "33,771",
+    "imdbID": "tt9218128",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True",
+    "Trailer":"https://www.youtube.com/embed/4rgYUipGJNo"
+  },
+  {
+    "Title": "The Fall Guy",
+    "Year": "2024",
+    "Rated": "PG-13",
+    "Released": "03 May 2024",
+    "Runtime": "126 min",
+    "Genre": "Action, Comedy, Drama",
+    "Director": "David Leitch",
+    "Writer": "Glen A. Larson, Drew Pearce",
+    "Actors": "Ryan Gosling, Emily Blunt, Aaron Taylor-Johnson",
+    "Plot": "A stuntman, fresh off an almost career-ending accident, has to track down a missing movie star, solve a conspiracy and try to win back the love of his life while still doing his day job. What could possibly go right?",
+    "Language": "English",
+    "Country": "United States, Australia, Canada",
+    "Awards": "1 win & 16 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BM2U0MTJiYTItMjNiZS00MzU4LTkxYTAtYTU0ZGY1ODJhMjRhXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.9/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "81%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "73/100"
+      }
+    ],
+    "Metascore": "73",
+    "imdbRating": "6.9",
+    "imdbVotes": "181,334",
+    "imdbID": "tt1684562",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$92,900,355",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True",
+    "Trailer":"https://www.youtube.com/embed/EySdVK0NK1Y"
+  },
+  {
+    "Title": "Good One",
+    "Year": "2024",
+    "Rated": "R",
+    "Released": "13 Nov 2024",
+    "Runtime": "89 min",
+    "Genre": "Drama",
+    "Director": "India Donaldson",
+    "Writer": "India Donaldson",
+    "Actors": "Lily Collias, Sumaya Bouhbal, Valentine Black",
+    "Plot": "During a weekend backpacking trip in the Catskills, 17-year-old Sam navigates the clash of egos between her father and his oldest friend.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "3 wins & 13 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNjcxMjJlOGQtOThhMS00MWVhLTg5ZWYtZDA2NzIwMDk5Y2NjXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.6/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "98%"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "6.6",
+    "imdbVotes": "1,296",
+    "imdbID": "tt30319516",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$345,383",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True",
+    "Trailer":"https://www.youtube.com/embed/RGZNT7qgeG4"
+  },
+  {
+    "Title": "Beetlejuice Beetlejuice",
+    "Year": "2024",
+    "Rated": "PG-13",
+    "Released": "06 Sep 2024",
+    "Runtime": "105 min",
+    "Genre": "Comedy, Fantasy, Horror",
+    "Director": "Tim Burton",
+    "Writer": "Michael McDowell, Larry Wilson, Alfred Gough",
+    "Actors": "Michael Keaton, Winona Ryder, Catherine O'Hara",
+    "Plot": "After a family tragedy, three generations of the Deetz family return home to Winter River. Still haunted by Beetlejuice, Lydia's life is turned upside down when her teenage daughter, Astrid, accidentally opens the portal to the Af...",
+    "Language": "English, Italian, French, Spanish",
+    "Country": "United States, France",
+    "Awards": "1 win & 2 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYmRlYzE3ZTYtNjIyZi00MWYyLWEzZDItOWI5NzM1Yjc0NmI5XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.8/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "70%"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "6.8",
+    "imdbVotes": "101,558",
+    "imdbID": "tt2049403",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$294,072,781",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True",
+    "Trailer":"https://www.youtube.com/embed/CoZqL9N6Rx4"
+  },
+  {
+    "Title": "Civil War",
+    "Year": "2024",
+    "Rated": "R",
+    "Released": "12 Apr 2024",
+    "Runtime": "109 min",
+    "Genre": "Action, Adventure, Thriller",
+    "Director": "Alex Garland",
+    "Writer": "Alex Garland",
+    "Actors": "Kirsten Dunst, Wagner Moura, Cailee Spaeny",
+    "Plot": "A journey across a dystopian future America, following a team of military-embedded journalists as they race against time to reach DC before rebel factions descend upon the White House.",
+    "Language": "English",
+    "Country": "United States, United Kingdom, Finland",
+    "Awards": "25 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYTkzMjc0YzgtY2E0Yi00NDBlLWI0MWUtODY1ZjExMDAyOWZiXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.0/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "81%"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "7.0",
+    "imdbVotes": "192,596",
+    "imdbID": "tt17279496",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$68,603,430",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True",
+    "Trailer":"https://www.youtube.com/embed/aDyQxtg0V2w"
+  },
+  {
+    "Title": "Love Lies Bleeding",
+    "Year": "2024",
+    "Rated": "R",
+    "Released": "03 May 2024",
+    "Runtime": "104 min",
+    "Genre": "Action, Adventure, Crime",
+    "Director": "Rose Glass",
+    "Writer": "Rose Glass, Weronika Tofilska",
+    "Actors": "Anna Baryshnikov, Kristen Stewart, Dave Franco",
+    "Plot": "Reclusive gym manager Lou falls hard for Jackie, an ambitious bodybuilder headed through town to Vegas in pursuit of her dream. But their love ignites violence, pulling them deep into the web of Lou's criminal family.",
+    "Language": "English",
+    "Country": "United Kingdom, United States",
+    "Awards": "3 wins & 21 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNWUxZTliMDgtOWVkZS00MjkwLWI5ZWUtNTZmMjhlYTFlN2I5XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "6.7/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "94%"
+      }
+    ],
+    "Metascore": "N/A",
+    "imdbRating": "6.7",
+    "imdbVotes": "46,846",
+    "imdbID": "tt19637052",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$8,335,797",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True",
+    "Trailer":"https://www.youtube.com/embed/BF_J3-DmiS0"
+  },
+  {
+    "Title": "Deadpool",
+    "Year": "2016",
+    "Rated": "R",
+    "Released": "12 Feb 2016",
+    "Runtime": "108 min",
+    "Genre": "Action, Comedy",
+    "Director": "Tim Miller",
+    "Writer": "Rhett Reese, Paul Wernick",
+    "Actors": "Ryan Reynolds, Morena Baccarin, T.J. Miller",
+    "Plot": "A wisecracking mercenary gets experimented on and becomes immortal yet hideously scarred, and sets out to track down the man who ruined his looks.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "29 wins & 78 nominations",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNzY3ZWU5NGQtOTViNC00ZWVmLTliNjAtNzViNzlkZWQ4YzQ4XkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "8.0/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "85%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "65/100"
+      }
+    ],
+    "Metascore": "65",
+    "imdbRating": "8.0",
+    "imdbVotes": "1,179,307",
+    "imdbID": "tt1431045",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "$363,070,709",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True",
+    "Trailer":"https://www.youtube.com/embed/Xithigfg7dA"
+  },
+  {
+    "Title": "Mufasa: The Lion King",
+    "Year": "2024",
+    "Rated": "PG",
+    "Released": "20 Dec 2024",
+    "Runtime": "120 min",
+    "Genre": "Animation, Adventure, Drama",
+    "Director": "Barry Jenkins",
+    "Writer": "Linda Woolverton, Irene Mecchi, Jonathan Roberts",
+    "Actors": "Aaron Pierre, Kelvin Harrison Jr., Seth Rogen",
+    "Plot": "Mufasa, a cub lost and alone, meets a sympathetic lion named Taka, the heir to a royal bloodline. The chance meeting sets in motion an expansive journey of a group of misfits searching for their destiny.",
+    "Language": "English",
+    "Country": "United States",
+    "Awards": "1 nomination",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYjBkOWUwODYtYWI3YS00N2I0LWEyYTktOTJjM2YzOTc3ZDNlXkEyXkFqcGc@._V1_SX300.jpg",
+    "Ratings": [],
+    "Metascore": "N/A",
+    "imdbRating": "N/A",
+    "imdbVotes": "N/A",
+    "imdbID": "tt13186482",
+    "Type": "movie",
+    "DVD": "N/A",
+    "BoxOffice": "N/A",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True",
+    "Trailer":"https://www.youtube.com/embed/o17MF9vnabg"
+  }
+]

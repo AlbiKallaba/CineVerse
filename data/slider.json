@@ -1,0 +1,302 @@
+[
+    {
+        "Title": "The Fall Guy",
+        "Year": "2024",
+        "Rated": "PG-13",
+        "Released": "03 May 2024",
+        "Runtime": "126 min",
+        "Genre": "Action, Comedy, Drama",
+        "Director": "David Leitch",
+        "Writer": "Glen A. Larson, Drew Pearce",
+        "Actors": "Ryan Gosling, Emily Blunt, Aaron Taylor-Johnson",
+        "Plot": "A stuntman, fresh off an almost career-ending accident, has to track down a missing movie star, solve a conspiracy and try to win back the love of his life while still doing his day job. What could possibly go right?",
+        "Language": "English",
+        "Country": "United States, Australia, Canada",
+        "Awards": "1 win & 16 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BM2U0MTJiYTItMjNiZS00MzU4LTkxYTAtYTU0ZGY1ODJhMjRhXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "6.9/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "81%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "73/100"
+            }
+        ],
+        "Metascore": "73",
+        "imdbRating": "6.9",
+        "imdbVotes": "181,334",
+        "imdbID": "tt1684562",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$92,900,355",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True",
+        "Trailer":"https://www.youtube.com/embed/EySdVK0NK1Y"
+    },
+    {
+        "Title": "Beetlejuice Beetlejuice",
+        "Year": "2024",
+        "Rated": "PG-13",
+        "Released": "06 Sep 2024",
+        "Runtime": "105 min",
+        "Genre": "Comedy, Fantasy, Horror",
+        "Director": "Tim Burton",
+        "Writer": "Michael McDowell, Larry Wilson, Alfred Gough",
+        "Actors": "Michael Keaton, Winona Ryder, Catherine O'Hara",
+        "Plot": "After a family tragedy, three generations of the Deetz family return home to Winter River. Still haunted by Beetlejuice, Lydia's life is turned upside down when her teenage daughter, Astrid, accidentally opens the portal to the Af...",
+        "Language": "English, Italian, French, Spanish",
+        "Country": "United States, France",
+        "Awards": "1 win & 2 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYmRlYzE3ZTYtNjIyZi00MWYyLWEzZDItOWI5NzM1Yjc0NmI5XkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "6.8/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "70%"
+            }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "6.8",
+        "imdbVotes": "101,558",
+        "imdbID": "tt2049403",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$294,072,781",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True",
+        "Trailer":"https://www.youtube.com/embed/CoZqL9N6Rx4"
+    },
+    {
+        "Title": "Dune: Part Two",
+        "Year": "2024",
+        "Rated": "PG-13",
+        "Released": "01 Mar 2024",
+        "Runtime": "166 min",
+        "Genre": "Action, Adventure, Drama",
+        "Director": "Denis Villeneuve",
+        "Writer": "Denis Villeneuve, Jon Spaihts, Frank Herbert",
+        "Actors": "Timothe Chalamet, Zendaya, Rebecca Ferguson",
+        "Plot": "Paul Atreides unites with the Fremen while on a warpath of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the universe, he endeavors to prevent a terrible future.",
+        "Language": "English",
+        "Country": "United States, Canada, United Arab Emirates, Hungary, Italy, New Zealand, Jordan, Gambia",
+        "Awards": "7 wins & 51 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNTc0YmQxMjEtODI5MC00NjFiLTlkMWUtOGQ5NjFmYWUyZGJhXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "8.5/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "92%"
+            }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "8.5",
+        "imdbVotes": "550,878",
+        "imdbID": "tt15239678",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$282,144,358",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True",
+        "Trailer": "https://www.youtube.com/embed/Way9Dexny3w"
+    },
+    {
+        "Title": "Furiosa: A Mad Max Saga",
+        "Year": "2024",
+        "Rated": "R",
+        "Released": "24 May 2024",
+        "Runtime": "148 min",
+        "Genre": "Action, Adventure, Sci-Fi",
+        "Director": "George Miller",
+        "Writer": "George Miller, Nick Lathouris",
+        "Actors": "Anya Taylor-Joy, Chris Hemsworth, Tom Burke",
+        "Plot": "The origin story of renegade warrior Furiosa before her encounter and teamup with Mad Max.",
+        "Language": "English",
+        "Country": "Australia, United States",
+        "Awards": "1 win & 23 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNTcwYWE1NTYtOWNiYy00NzY3LWIwY2MtNjJmZDkxNDNmOWE1XkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "7.5/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "90%"
+            }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "7.5",
+        "imdbVotes": "229,998",
+        "imdbID": "tt12037194",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$67,475,791",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True",
+        "Trailer":"https://www.youtube.com/embed/XJMuhwVlca4"
+    },
+    {
+        "Title": "The Substance",
+        "Year": "2024",
+        "Rated": "R",
+        "Released": "20 Sep 2024",
+        "Runtime": "141 min",
+        "Genre": "Drama, Horror",
+        "Director": "Coralie Fargeat",
+        "Writer": "Coralie Fargeat",
+        "Actors": "Demi Moore, Margaret Qualley, Dennis Quaid",
+        "Plot": "A fading celebrity takes a black-market drug: a cell-replicating substance that temporarily creates a younger, better version of herself.",
+        "Language": "English",
+        "Country": "United Kingdom, France, United States",
+        "Awards": "6 wins & 9 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZDQ1NGE5MGMtYzdlZC00ODExLWJlMDMtNWU4NjA5OWYwMDEwXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "7.5/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "90%"
+            }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "7.5",
+        "imdbVotes": "135,036",
+        "imdbID": "tt17526714",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$16,235,191",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True",
+        "Trailer":"https://www.youtube.com/embed/LNlrGhBpYjc"
+    },
+    {
+        "Title": "Wicked",
+        "Year": "1998",
+        "Rated": "R",
+        "Released": "17 Jan 1998",
+        "Runtime": "88 min",
+        "Genre": "Thriller",
+        "Director": "Michael Steinberg",
+        "Writer": "Eric Weiss",
+        "Actors": "Louise Myrback, Julia Stiles, Chelsea Field",
+        "Plot": "Ellie is an average girl with typical teen problems: a bratty little sister, a nagging mom and a father that denies her the attention she desperately craves. But Ellie's not the kind of girl that gets mad. She gets evil.",
+        "Language": "English",
+        "Country": "United States",
+        "Awards": "1 win & 1 nomination",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNjhlMWMyYzItNzljNy00YzY5LWI0NWItMDFhM2NkYzk3ZTY0XkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "5.3/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "20%"
+            }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "5.3",
+        "imdbVotes": "3,491",
+        "imdbID": "tt0120088",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True",
+        "Trailer":"https://www.youtube.com/embed/6COmYeLsz4c"
+    },
+    {
+        "Title": "Gladiator II",
+        "Year": "2024",
+        "Rated": "R",
+        "Released": "22 Nov 2024",
+        "Runtime": "148 min",
+        "Genre": "Action, Adventure, Drama",
+        "Director": "Ridley Scott",
+        "Writer": "David Scarpa, Peter Craig, David Franzoni",
+        "Actors": "Connie Nielsen, Paul Mescal, Denzel Washington",
+        "Plot": "After his home is conquered by the tyrannical emperors who now lead Rome, Lucius is forced to enter the Colosseum and must look to his past to find strength to return the glory of Rome to its people.",
+        "Language": "English",
+        "Country": "United States, United Kingdom, Morocco, Canada",
+        "Awards": "2 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMWYzZTM5ZGQtOGE5My00NmM2LWFlMDEtMGNjYjdmOWM1MzA1XkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "7.0/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "75%"
+            }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "7.0",
+        "imdbVotes": "33,771",
+        "imdbID": "tt9218128",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True",
+        "Trailer":"https://www.youtube.com/embed/4rgYUipGJNo"
+    },
+    {
+        "Title": "The Brutalist",
+        "Year": "2024",
+        "Rated": "N/A",
+        "Released": "23 Jan 2025",
+        "Runtime": "215 min",
+        "Genre": "Drama",
+        "Director": "Brady Corbet",
+        "Writer": "Brady Corbet, Mona Fastvold",
+        "Actors": "Adrien Brody, Felicity Jones, Guy Pearce",
+        "Plot": "When visionary architect L\u00e1szl\u00f3 Toth and his wife Erzs\u00e9bet flee post-war Europe in 1947 to rebuild their legacy and witness the birth of modern America, their lives are changed forever by a mysterious and wealthy client.",
+        "Language": "English, Hungarian, Italian, Hebrew, Yiddish",
+        "Country": "United States, United Kingdom, Hungary",
+        "Awards": "8 wins & 9 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMWEzOGNlY2EtMzlkZS00ODllLThmYzAtNmU4ZmJkZmZmZTQ4XkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "8.1/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "97%"
+            }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "8.1",
+        "imdbVotes": "1,189",
+        "imdbID": "tt8999762",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True",
+        "Trailer":"https://www.youtube.com/embed/GdRXPAHIEW4"
+    }
+]

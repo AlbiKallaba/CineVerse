@@ -1,18 +1,11 @@
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-  integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-  crossorigin="anonymous"
-  referrerpolicy="no-referrer"
-/>
 <nav class="navbar navbar-expand-lg navbar-light position-fixed w-100 z-3">
   <div class="container-fluid">
-    <!-- Navbar Brand with SVG Icon -->
-    <a class="navbar-brand" href="/index.html" style="font-size: 30px;">
-      <img src="/icon.svg" id="icon" alt="Site Icon" width="50" height="50" />
+    <!-- Brand -->
+    <a class="navbar-brand" href="index.html" style="font-size: 30px;">
+      <img src="icon.svg" id="icon" alt="Site Icon" width="50" height="50" />
     </a>
 
-    <!-- Navbar Toggler Button -->
+    <!-- Toggle Button -->
     <button
       class="navbar-toggler"
       type="button"
@@ -33,15 +26,13 @@
             <a class="nav-link" href="/pages/about/about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/pages/contact/contact.html">Contact</a>
+            <a class="nav-link" href="pages/contact/contact.html">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/pages/create_account/create_account.html">Create Account</a>
+            <a class="nav-link" href="pages/create_account/create_account.html">Create Account</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" id="demo">
-
-            </a>
+            <a class="nav-link" href="#" id="demo"></a>
           </li>
         </ul>
       </div>
@@ -54,7 +45,7 @@
         </a>
       </div>
 
-      <!-- User Account Icon -->
+      <!-- User Icon -->
       <div class="User_Account">
         <a id="User" aria-label="User Account">
           <i class="fas fa-user"></i>
@@ -62,41 +53,35 @@
       </div>
     </div>
   </div>
-</nav>
-<script type="module" src="/search.js"></script>
 
-<script>
-const myInterval = setInterval(myTimer, 1000);
+  <!-- Clock Script -->
+  <script>
+    const myInterval = setInterval(myTimer, 1000);
 
-function myTimer() {
-  const date = new Date();
-  document.getElementById("demo").innerHTML = date.toLocaleTimeString();
-}
-
-function myStopFunction() {
-  clearInterval(myInterval);
-}
-</script>
-<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-<script>
-  
-
-$(document).ready(function() {
-  $("#box1").hover(
-    function() {
-      // When mouse enters
-      $("#box1").on("click", function() {
-        $("#box1").animate({ width: "125px" });
-        $("#search_box").css("width","80px" );
-      });
-    },
-    function() {
-      // When mouse leaves
-      $("#box1").animate({ width: "70px" });
-      $("#search_box").css({ width: "10px" });
+    function myTimer() {
+      const date = new Date();
+      document.getElementById("demo").innerHTML = date.toLocaleTimeString();
     }
-  );
-});
-// handle User login
-const UserIcon = document.getElementById();
-</script>
+  </script>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+  <!-- Hover Search Animation -->
+  <script>
+    $(document).ready(function () {
+      $("#box1").hover(
+        function () {
+          $("#box1").on("click", function () {
+            $("#box1").animate({ width: "125px" });
+            $("#search_box").css("width", "80px");
+          });
+        },
+        function () {
+          $("#box1").animate({ width: "70px" });
+          $("#search_box").css({ width: "10px" });
+        }
+      );
+    });
+  </script>
+</nav>
